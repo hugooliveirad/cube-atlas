@@ -22,6 +22,14 @@ Progress stays in this browser under `cube-atlas.progress.v1`. It does not sync 
 
 The runtime catalog lives in `index.html`. Its column totals are 25 white, 25 blue, 25 black, 25 red, 25 green, 11 colorless, 21 multicolored, and 23 lands. The catalog check verifies every card against the supplied text file, in order.
 
+## Ownership and buy lists
+
+Use **Import collection CSV** with a Mythic Tools export. English names match across sets, languages, and finishes; repeated rows add their quantities. Only names used by either roster are stored. The stacked-card icon beside a name shows how many copies you own. Importing replaces the previous ownership snapshot and leaves every included checkbox unchanged.
+
+Ownership stays in this browser under `cube-atlas.owned.v1`; the CSV and your collection are never uploaded. Keep the CSV to import on another device. **Back up progress** continues to back up included checkboxes only. Reimport a newer CSV to refresh ownership.
+
+**Buy list** opens an alphabetized, quantity-based list for the full selected roster, regardless of filters or hidden suggestions. For each name, the amount to buy is `required − max(owned, included)`, floored at zero. Included copies may already be part of the imported collection, so those counts are not added together. Duplicate lands can require a second copy. Copy or download the resulting decklist; completion still depends only on included checkboxes.
+
 ## Play Booster alternative
 
 The **Original list** tab preserves the supplied list. **Play Boosters** builds a separate 180-card Foundations roster from 70 eligible original cards and 110 suggested replacements. Each suggestion names the card it replaces; hover its row for the reasoning. Suggestions match roles where possible, but mana costs, rarity, and power can differ. This is a starting point for playtesting, not a tested balance claim.
@@ -41,6 +49,8 @@ node scripts/fetch-art.mjs
 ```
 
 For browser checks, serve the app on port 8766, install Playwright locally (`npm install --no-save --package-lock=false playwright`), and run `node scripts/browser-check.cjs`. It uses installed Chrome by default. Override `CUBE_URL` or `BROWSER_CHANNEL` as needed. Tests use an isolated browser context and never change your saved collection.
+
+Run `node scripts/ownership-check.cjs` for CSV import, ownership, and buy-list checks. Optional `COLLECTION_CSV` checks a local export without adding it to the repository.
 
 The art script verifies exact names through Scryfall's collection API, downloads 112-pixel thumbnails, and records source URLs and artist credits in [docs/art-credits.json](docs/art-credits.json). It reads the catalog from the HTML; it does not maintain a second card list.
 

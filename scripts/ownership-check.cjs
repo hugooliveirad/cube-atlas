@@ -1,0 +1,91 @@
+const assert = require('node:assert/strict');
+const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+(async () => {
+  const browser = await chromium.launch({headless:true,channel:process.env.BROWSER_CHANNEL || 'chrome'});
+  try {
+    const context = await browser.newContext({viewport:{width:1600,height:1100}});
+    const page = await context.newPage();
+    await page.goto(process.env.CUBE_URL || 'http://127.0.0.1:8766');
+    const upload = async text => {
+      await page.locator('#owned-file').setInputFiles({name:'collection.csv',mimeType:'text/csv',buffer:Buffer.from(text)});
+      await page.waitForFunction(() => document.querySelector('#owned-file').value === '');
+    };
+    const fixture = '\uFEFFCard Name,English Name,Quantity,Container Name\r\nLocalized,Felidar Cub,1,"Box, one"\r\nLocalized,Rugged Highlands,1,"Line one\nLine ""two"""\r\nLocalized,"Ajani’s Pridemate",2,Box\r\nLocalized,"Ajani\'s Pridemate",1,Box\r\nOther,Unrelated Card,5,Box\r\n';
+    assert.equal(await page.locator('#buy-list').isDisabled(),true);
+    await upload(fixture);
+    assert.equal(await page.locator('.card input:checked').count(),0,'Ownership must not set included flags');
+    assert.equal(await page.locator('.owned-icon:visible').count(),3);
+    assert.equal(await page.locator('[data-card="white:ajani-s-pridemate:1"]').locator('..').locator('.owned-icon').getAttribute('aria-label'),'3 copies owned in your imported collection');
+    assert.equal(await page.locator('#percentage').innerText(),'0%');
+    await page.reload();
+    assert.equal(await page.locator('.owned-icon:visible').count(),3,'Ownership persists separately');
+    await page.locator('#buy-list').click();
+    let lines = (await page.locator('#buy-text').inputValue()).split('\n');
+    assert.equal(lines.length,177);
+    assert(!lines.some(line => line.endsWith('Felidar Cub')));
+    assert.deepEqual(lines,[...lines].sort((a,b) => a.slice(2).localeCompare(b.slice(2),'en')));
+    await page.locator('#close-buy').click();
+    await page.getByRole('checkbox',{name:'Include Hinterland Sanctifier',exact:true}).check();
+    await page.locator('#buy-list').click();
+    assert(!(await page.locator('#buy-text').inputValue()).includes('Hinterland Sanctifier'),'Checked cards need no purchase even when absent from the export');
+    await page.locator('#close-buy').click();
+    await page.getByRole('tab',{name:'Play Boosters',exact:true}).click();
+    await page.getByRole('checkbox',{name:'Include Rugged Highlands, copy 2 of 2',exact:true}).check();
+    await page.locator('#buy-list').click();
+    let buy = await page.locator('#buy-text').inputValue();
+    assert(buy.split('\n').includes('1 Rugged Highlands'),'An included owned copy must not be counted twice');
+    assert(buy.split('\n').includes('2 Bloodfell Caves'),'Unowned duplicate slots aggregate into a quantity');
+    assert(!buy.includes('Hinterland Sanctifier'),'Included cards are excluded even when absent from export');
+    const downloadPromise = page.waitForEvent('download');
+    await page.locator('#download-buy').click();
+    const download = await downloadPromise;
+    const stream = await download.createReadStream(); let downloaded = '';
+    for await(const chunk of stream) downloaded += chunk;
+    assert.equal(downloaded,buy + '\n');
+    await page.locator('#close-buy').click();
+    await page.getByRole('checkbox',{name:'Show suggested cards',exact:true}).uncheck();
+    await page.getByLabel('Find a card').fill('Felidar');
+    await page.locator('#buy-list').click();
+    assert.equal(await page.locator('#buy-text').inputValue(),buy,'Buy list ignores display filters and hidden suggestions');
+    await page.keyboard.press('Escape');
+    await upload('Card Name,Quantity\nRugged Highlands,2\n');
+    await page.locator('#buy-list').click();
+    assert(!(await page.locator('#buy-text').inputValue()).includes('Rugged Highlands'));
+    await page.locator('#close-buy').click();
+    const before = await page.evaluate(() => localStorage.getItem('cube-atlas.owned.v1'));
+    await upload('Card Name,Quantity\nRugged Highlands,nope\n');
+    assert.equal(await page.locator('#ownership-status').getAttribute('data-error'),'true');
+    assert.equal(await page.evaluate(() => localStorage.getItem('cube-atlas.owned.v1')),before,'Invalid import preserves previous ownership');
+    await upload('Card Name,Quantity\n"Unfinished,1');
+    assert.match(await page.locator('#ownership-status').textContent(),/unfinished quoted/);
+    await upload(fixture);
+    const second = await context.newPage(); await second.goto(page.url());
+    await upload('Card Name,Quantity\nRugged Highlands,9');
+    await second.waitForFunction(() => document.querySelector('#ownership-status').textContent.includes('2 of 180 copies owned'));
+    await second.close();
+    await page.getByLabel('Find a card').fill('');
+    await page.getByRole('checkbox',{name:'Show suggested cards',exact:true}).check();
+    for(const width of [390,1600]) {
+      await page.setViewportSize({width,height:1000});
+      assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+      await page.locator('#buy-list').click();
+      assert(await page.evaluate(() => document.querySelector('dialog').getBoundingClientRect().right <= innerWidth));
+      await page.screenshot({path:`/tmp/cube-atlas-ownership-${width}.png`});
+      await page.locator('#close-buy').click();
+    }
+    if(process.env.COLLECTION_CSV) {
+      await page.locator('#owned-file').setInputFiles(process.env.COLLECTION_CSV);
+      await page.waitForFunction(() => document.querySelector('#owned-file').value === '');
+      const counts = await page.evaluate(() => JSON.parse(localStorage.getItem('cube-atlas.owned.v1')).counts);
+      assert.equal(Object.keys(counts).length,179);
+      console.log('Verified the local Mythic Tools export: 179 matching card names.');
+    }
+    const blocked = await browser.newContext();
+    await blocked.addInitScript(() => { Storage.prototype.setItem = () => { throw new Error('Storage full'); }; });
+    const blockedPage = await blocked.newPage(); await blockedPage.goto(page.url());
+    await blockedPage.locator('#owned-file').setInputFiles({name:'collection.csv',mimeType:'text/csv',buffer:Buffer.from(fixture)});
+    await blockedPage.waitForFunction(() => document.querySelector('#ownership-status').textContent.includes('session only'));
+    assert.equal(await blockedPage.locator('.owned-icon:visible').count(),3);
+    console.log('PASS: CSV parsing, quantities, separate progress, persistence, invalid imports, duplicate buy quantities, full-roster buy list, download, cross-tab sync, mobile layout, and storage failure.');
+  } finally { await browser.close(); }
+})().catch(error => { console.error(error); process.exitCode = 1; });
