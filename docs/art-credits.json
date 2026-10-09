@@ -1,0 +1,1262 @@
+[
+  {
+    "name": "Felidar Cub",
+    "artist": "Steve Prescott",
+    "source": "https://scryfall.com/card/fdn/573/felidar-cub?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/0/d/0d61d50b-7ab6-45a9-b207-31d87aa2e555.jpg?1783908941",
+    "file": "assets/cards/felidar-cub.jpg"
+  },
+  {
+    "name": "Hinterland Sanctifier",
+    "artist": "Justine Cruz",
+    "source": "https://scryfall.com/card/fdn/730/hinterland-sanctifier?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/6/3/632df69e-6377-43d0-bba5-65518a320aa5.jpg?1783908887",
+    "file": "assets/cards/hinterland-sanctifier.jpg"
+  },
+  {
+    "name": "Inspiring Overseer",
+    "artist": "Irina Nordsol",
+    "source": "https://scryfall.com/card/fdn/736/inspiring-overseer?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/7/9/79016cf3-6eea-4b21-9ff3-f187d606e19a.jpg?1787563124",
+    "file": "assets/cards/inspiring-overseer.jpg"
+  },
+  {
+    "name": "Ajani's Pridemate",
+    "artist": "Kevin Sidharta",
+    "source": "https://scryfall.com/card/fdn/135/ajanis-pridemate?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/2/2/222c1a68-e34c-4103-b1be-17d4ceaef6ce.jpg?1783909088",
+    "file": "assets/cards/ajani-s-pridemate.jpg"
+  },
+  {
+    "name": "Angel of Finality",
+    "artist": "Howard Lyon",
+    "source": "https://scryfall.com/card/fdn/136/angel-of-finality?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/b/a/baaabd52-3aa9-4e2f-9369-d4db8b405ba8.jpg?1783909087",
+    "file": "assets/cards/angel-of-finality.jpg"
+  },
+  {
+    "name": "Angel of Vitality",
+    "artist": "Johannes Voss",
+    "source": "https://scryfall.com/card/fdn/706/angel-of-vitality?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/c/2/c279947e-168f-4af5-902b-aba724f52b8a.jpg?1783908897",
+    "file": "assets/cards/angel-of-vitality.jpg"
+  },
+  {
+    "name": "Cat Collector",
+    "artist": "Chris Seaman",
+    "source": "https://scryfall.com/card/fdn/4/cat-collector?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/2/526fe356-bff1-4211-9e88-bf913ac76b1d.jpg?1783909129",
+    "file": "assets/cards/cat-collector.jpg"
+  },
+  {
+    "name": "Dawnwing Marshal",
+    "artist": "Aldo Domínguez",
+    "source": "https://scryfall.com/card/fdn/570/dawnwing-marshal?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/0/807db84f-addb-4ef0-b9ba-32b3e1bced3d.jpg?1783908942",
+    "file": "assets/cards/dawnwing-marshal.jpg"
+  },
+  {
+    "name": "Joust Through",
+    "artist": "Miro Petrov",
+    "source": "https://scryfall.com/card/fdn/19/joust-through?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/4/846adb38-f9bb-4fed-b8ed-36ec7885f989.jpg?1783909125",
+    "file": "assets/cards/joust-through.jpg"
+  },
+  {
+    "name": "Knight of Grace",
+    "artist": "Sidharth Chaturvedi",
+    "source": "https://scryfall.com/card/fdn/576/knight-of-grace?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/4/e/4efb8633-0a70-4ddc-80af-42508ec75cff.jpg?1783908938",
+    "file": "assets/cards/knight-of-grace.jpg"
+  },
+  {
+    "name": "Release the Dogs",
+    "artist": "Jason Kang",
+    "source": "https://scryfall.com/card/tdc/127/release-the-dogs?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/7/e/7e1df99a-c139-44c9-8881-077dbfd7332f.jpg?1783907120",
+    "file": "assets/cards/release-the-dogs.jpg"
+  },
+  {
+    "name": "Resolute Reinforcements",
+    "artist": "Billy Christian",
+    "source": "https://scryfall.com/card/fdn/145/resolute-reinforcements?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/9/4/940f3989-77cc-49a9-92e0-095a75d80f0f.jpg?1783909083",
+    "file": "assets/cards/resolute-reinforcements.jpg"
+  },
+  {
+    "name": "Savannah Lions",
+    "artist": "Winona Nelson",
+    "source": "https://scryfall.com/card/fdn/146/savannah-lions?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/9/c/9c9ac1bc-cdf3-4fa6-8319-a7ea164e9e47.jpg?1783909083",
+    "file": "assets/cards/savannah-lions.jpg"
+  },
+  {
+    "name": "Stasis Snare",
+    "artist": "Jason Felix",
+    "source": "https://scryfall.com/card/fdn/581/stasis-snare?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/c/e/ce41e348-44c2-47f8-8e7d-da2e4d16d648.jpg?1783908938",
+    "file": "assets/cards/stasis-snare.jpg"
+  },
+  {
+    "name": "Stroke of Midnight",
+    "artist": "Julia Metzger",
+    "source": "https://scryfall.com/card/frc/35/stroke-of-midnight?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/4/d42b9f9e-2df2-491e-b6ac-3b2bac8a8d8e.jpg?1789599799",
+    "file": "assets/cards/stroke-of-midnight.jpg"
+  },
+  {
+    "name": "Valorous Stance",
+    "artist": "Tyler Walpole",
+    "source": "https://scryfall.com/card/msc/145/valorous-stance?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/7/f726d332-6961-403d-83f8-25c997f4dffc.jpg?1783903241",
+    "file": "assets/cards/valorous-stance.jpg"
+  },
+  {
+    "name": "Charming Prince",
+    "artist": "Randy Vargas",
+    "source": "https://scryfall.com/card/fdn/568/charming-prince?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/a/a/aa7b47e1-7e32-4f2f-aecf-bac7ca197081.jpg?1783908943",
+    "file": "assets/cards/charming-prince.jpg"
+  },
+  {
+    "name": "Felidar Retreat",
+    "artist": "Ralph Horsley",
+    "source": "https://scryfall.com/card/fdn/574/felidar-retreat?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/9/89e3cc09-5057-4c05-88fc-d6cda809fc74.jpg?1783908940",
+    "file": "assets/cards/felidar-retreat.jpg"
+  },
+  {
+    "name": "Fumigate",
+    "artist": "Svetlin Velinov",
+    "source": "https://scryfall.com/card/eoc/65/fumigate?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/9/7/976f6850-e646-4b51-a103-25240658672d.jpg?1783906046",
+    "file": "assets/cards/fumigate.jpg"
+  },
+  {
+    "name": "Linden, the Steadfast Queen",
+    "artist": "Ryan Pancoast",
+    "source": "https://scryfall.com/card/fdn/737/linden-the-steadfast-queen?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/e/0/e0bb07cd-9b74-4ba7-8089-27a565d74197.jpg?1787563118",
+    "file": "assets/cards/linden-the-steadfast-queen.jpg"
+  },
+  {
+    "name": "Mentor of the Meek",
+    "artist": "Wei Guan",
+    "source": "https://scryfall.com/card/hoc/170/mentor-of-the-meek?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/0/5/05b6a101-4d12-4f50-8f02-5c778e08b149.jpg?1785497406",
+    "file": "assets/cards/mentor-of-the-meek.jpg"
+  },
+  {
+    "name": "Regal Caracal",
+    "artist": "Filip Burburan",
+    "source": "https://scryfall.com/card/fdn/579/regal-caracal?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/b/6/b6310a82-73db-40cb-ae64-6f07f869024c.jpg?1783908938",
+    "file": "assets/cards/regal-caracal.jpg"
+  },
+  {
+    "name": "Zetalpa, Primal Dawn",
+    "artist": "Chris Rallis",
+    "source": "https://scryfall.com/card/tdc/142/zetalpa-primal-dawn?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/7/8/78c71a23-8e73-406e-bbd0-4474c17c1d04.jpg?1783907112",
+    "file": "assets/cards/zetalpa-primal-dawn.jpg"
+  },
+  {
+    "name": "Angelic Destiny",
+    "artist": "Jana Schirmer & Johannes Voss",
+    "source": "https://scryfall.com/card/soc/134/angelic-destiny?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/a/5/a588b610-86bb-4a18-b54e-a12f7d7d15c8.jpg?1783903814",
+    "file": "assets/cards/angelic-destiny.jpg"
+  },
+  {
+    "name": "Lyra Dawnbringer",
+    "artist": "Chris Rahn",
+    "source": "https://scryfall.com/card/fdn/738/lyra-dawnbringer?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/9/f9fa30b6-3a33-46fd-8b32-ac1cfa41500d.jpg?1787563101",
+    "file": "assets/cards/lyra-dawnbringer.jpg"
+  },
+  {
+    "name": "Dive Down",
+    "artist": "Magali Villeneuve",
+    "source": "https://scryfall.com/card/fdn/588/dive-down?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/6/5/65d5cff9-a3ec-432d-9ce5-68949e524279.jpg?1783908935",
+    "file": "assets/cards/dive-down.jpg"
+  },
+  {
+    "name": "Into the Roil",
+    "artist": "Campbell White",
+    "source": "https://scryfall.com/card/fdn/509/into-the-roil?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/2/5/25edefa9-9fff-4b71-83ae-696c196a795c.jpg?1783908963",
+    "file": "assets/cards/into-the-roil.jpg"
+  },
+  {
+    "name": "Lightshell Duo",
+    "artist": "Mariah Tekulve",
+    "source": "https://scryfall.com/card/fdn/157/lightshell-duo?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/b/b/bb75315c-ea8f-4eb0-899e-c73ef75fc396.jpg?1783909079",
+    "file": "assets/cards/lightshell-duo.jpg"
+  },
+  {
+    "name": "Mocking Sprite",
+    "artist": "Ben Hill",
+    "source": "https://scryfall.com/card/fdn/744/mocking-sprite?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/5/d52d16be-c74b-4e40-94f9-2ffa497b6337.jpg?1787563031",
+    "file": "assets/cards/mocking-sprite.jpg"
+  },
+  {
+    "name": "Negate",
+    "artist": "Ryan Valle",
+    "source": "https://scryfall.com/card/tmt/47/negate?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/2/52d58fe4-6070-4022-9cd7-c35a11b44525.jpg?1783904112",
+    "file": "assets/cards/negate.jpg"
+  },
+  {
+    "name": "Opt",
+    "artist": "Craig J Spearing",
+    "source": "https://scryfall.com/card/tdc/158/opt?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/b/b/bbc99a51-1501-4525-a3cc-f48249b64bed.jpg?1783907102",
+    "file": "assets/cards/opt.jpg"
+  },
+  {
+    "name": "Think Twice",
+    "artist": "Riccardo Federici",
+    "source": "https://scryfall.com/card/msc/787/think-twice?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/5/85835de4-66ea-4ba1-87ca-6bcec2a8660a.jpg?1783903015",
+    "file": "assets/cards/think-twice.jpg"
+  },
+  {
+    "name": "Tolarian Terror",
+    "artist": "Vincent Christiaens",
+    "source": "https://scryfall.com/card/fdn/167/tolarian-terror?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/2/5/2569d4f3-55ed-4f99-9592-34c7df0aab72.jpg?1783909076",
+    "file": "assets/cards/tolarian-terror.jpg"
+  },
+  {
+    "name": "Unsummon",
+    "artist": "Ioannis Fiore",
+    "source": "https://scryfall.com/card/fra/46/unsummon?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/d/ddad9f16-52d5-49de-82b0-b1a5294a9c44.jpg?1789556722",
+    "file": "assets/cards/unsummon.jpg"
+  },
+  {
+    "name": "Witness Protection",
+    "artist": "Dominik Mayer",
+    "source": "https://scryfall.com/card/fdn/168/witness-protection?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/2/f231e981-0069-43ce-ac1c-c85ced613e93.jpg?1783909076",
+    "file": "assets/cards/witness-protection.jpg"
+  },
+  {
+    "name": "Brineborn Cutthroat",
+    "artist": "Caio Monteiro",
+    "source": "https://scryfall.com/card/fdn/152/brineborn-cutthroat?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/a/c/acf7aafb-931f-49e5-8691-eab8cb34b05e.jpg?1783909081",
+    "file": "assets/cards/brineborn-cutthroat.jpg"
+  },
+  {
+    "name": "Chart a Course",
+    "artist": "James Ryman",
+    "source": "https://scryfall.com/card/fdn/586/chart-a-course?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/7/5/7599d459-fe71-48f4-8c65-0f519bb63a68.jpg?1783908936",
+    "file": "assets/cards/chart-a-course.jpg"
+  },
+  {
+    "name": "Clinquant Skymage",
+    "artist": "Kevin Sidharta",
+    "source": "https://scryfall.com/card/fdn/33/clinquant-skymage?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/6/36012810-0e83-4640-8ba7-7262229f1b84.jpg?1783909121",
+    "file": "assets/cards/clinquant-skymage.jpg"
+  },
+  {
+    "name": "Essence Scatter",
+    "artist": "Elliot Lang",
+    "source": "https://scryfall.com/card/sos/47/essence-scatter?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/2/32840097-0531-4c43-b6a8-e76c17420b04.jpg?1783903696",
+    "file": "assets/cards/essence-scatter.jpg"
+  },
+  {
+    "name": "Faebloom Trick",
+    "artist": "Annie Stegg",
+    "source": "https://scryfall.com/card/fdn/38/faebloom-trick?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/0/c/0c3bee8f-f5be-4404-a696-c902637799c3.jpg?1783909118",
+    "file": "assets/cards/faebloom-trick.jpg"
+  },
+  {
+    "name": "Fog Bank",
+    "artist": "Howard Lyon",
+    "source": "https://scryfall.com/card/fdn/591/fog-bank?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/8/18748b1d-4161-482c-a726-8762b4c1819c.jpg?1783908934",
+    "file": "assets/cards/fog-bank.jpg"
+  },
+  {
+    "name": "Mischievous Mystic",
+    "artist": "Steve Prescott",
+    "source": "https://scryfall.com/card/fdn/47/mischievous-mystic?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/2/0/20d89cec-528b-4b2a-87db-e11ce0000622.jpg?1783909116",
+    "file": "assets/cards/mischievous-mystic.jpg"
+  },
+  {
+    "name": "Shipwreck Dowser",
+    "artist": "Caroline Gariba",
+    "source": "https://scryfall.com/card/fdn/596/shipwreck-dowser?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/f/1f20fe3d-792a-4030-a25c-e81b48b2bcb4.jpg?1783908932",
+    "file": "assets/cards/shipwreck-dowser.jpg"
+  },
+  {
+    "name": "Spectral Sailor",
+    "artist": "Cristi Balanescu",
+    "source": "https://scryfall.com/card/fdn/746/spectral-sailor?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/e/5ef30b6c-0806-4bf6-9a84-c2aea8d84cf1.jpg?1787563009",
+    "file": "assets/cards/spectral-sailor.jpg"
+  },
+  {
+    "name": "Arcanis the Omnipotent",
+    "artist": "Justin Sweet",
+    "source": "https://scryfall.com/card/fdn/741/arcanis-the-omnipotent?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/9/d/9d31e3e3-f398-4c0e-a2c9-4c614a4d41de.jpg?1787563087",
+    "file": "assets/cards/arcanis-the-omnipotent.jpg"
+  },
+  {
+    "name": "Harbinger of the Tides",
+    "artist": "Svetlin Velinov",
+    "source": "https://scryfall.com/card/fdn/593/harbinger-of-the-tides?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/9/c/9ca4f70d-ec17-49a4-8968-598ecdbe8243.jpg?1783908933",
+    "file": "assets/cards/harbinger-of-the-tides.jpg"
+  },
+  {
+    "name": "Rite of Replication",
+    "artist": "Matt Cavotta",
+    "source": "https://scryfall.com/card/soc/202/rite-of-replication?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/0/5032d71d-d9f8-498c-97d1-271c2e9c1c47.jpg?1783903790",
+    "file": "assets/cards/rite-of-replication.jpg"
+  },
+  {
+    "name": "River's Rebuke",
+    "artist": "Raymond Swanland",
+    "source": "https://scryfall.com/card/fdn/595/rivers-rebuke?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/2/32ae984e-5d1e-4497-9a71-7406f78c09f3.jpg?1783908932",
+    "file": "assets/cards/river-s-rebuke.jpg"
+  },
+  {
+    "name": "Voracious Greatshark",
+    "artist": "Mathias Kollros",
+    "source": "https://scryfall.com/card/fdn/600/voracious-greatshark?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/c/2/c27b40dd-9b2a-4a99-a984-ee9cfdb091a1.jpg?1783908931",
+    "file": "assets/cards/voracious-greatshark.jpg"
+  },
+  {
+    "name": "Finale of Revelation",
+    "artist": "Johann Bodin",
+    "source": "https://scryfall.com/card/fdn/589/finale-of-revelation?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/0/a/0a77e063-e8f6-4cb2-954e-74cf41ce73da.jpg?1783908936",
+    "file": "assets/cards/finale-of-revelation.jpg"
+  },
+  {
+    "name": "Duress",
+    "artist": "PINDURSKI",
+    "source": "https://scryfall.com/card/fdn/606/duress?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/4/34c3a894-ee75-4db9-a69f-711bb3cc150a.jpg?1783908930",
+    "file": "assets/cards/duress.jpg"
+  },
+  {
+    "name": "Feed the Swarm",
+    "artist": "Kotakan",
+    "source": "https://scryfall.com/card/tle/257/feed-the-swarm?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/2/2/2246c098-1071-4cc3-a60a-802406e2827b.jpg?1783904770",
+    "file": "assets/cards/feed-the-swarm.jpg"
+  },
+  {
+    "name": "Marauding Blight-Priest",
+    "artist": "Caio Monteiro",
+    "source": "https://scryfall.com/card/fdn/178/marauding-blight-priest?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/f/5f70dafc-c638-4ec0-ab5b-62998f752720.jpg?1783909072",
+    "file": "assets/cards/marauding-blight-priest.jpg"
+  },
+  {
+    "name": "Moment of Craving",
+    "artist": "Steven Belledin",
+    "source": "https://scryfall.com/card/rix/79/moment-of-craving?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/c/0/c0e3ea55-162d-4466-ba4e-b938a0845fb5.jpg?1783935308",
+    "file": "assets/cards/moment-of-craving.jpg"
+  },
+  {
+    "name": "Pulse Tracker",
+    "artist": "Andrew Robinson",
+    "source": "https://scryfall.com/card/fdn/755/pulse-tracker?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/7/b/7bc1441e-7d75-4a74-8733-19077dfa69b2.jpg?1787562835",
+    "file": "assets/cards/pulse-tracker.jpg"
+  },
+  {
+    "name": "Sanguine Indulgence",
+    "artist": "Andrey Kuzinskiy",
+    "source": "https://scryfall.com/card/fdn/613/sanguine-indulgence?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/0/3/03a26ca7-b26f-4b86-a060-712f15f4bf7f.jpg?1783908926",
+    "file": "assets/cards/sanguine-indulgence.jpg"
+  },
+  {
+    "name": "Suspicious Shambler",
+    "artist": "Javier Charro",
+    "source": "https://scryfall.com/card/fdn/527/suspicious-shambler?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/d/3d2c5345-eb55-4bca-9183-b4e1404405f8.jpg?1783908962",
+    "file": "assets/cards/suspicious-shambler.jpg"
+  },
+  {
+    "name": "Undying Malice",
+    "artist": "Igor Kieryluk",
+    "source": "https://scryfall.com/card/fdn/528/undying-malice?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/9/7/97b3cf11-e352-4ee1-8c03-13898f576ef9.jpg?1783908956",
+    "file": "assets/cards/undying-malice.jpg"
+  },
+  {
+    "name": "Exsanguinate",
+    "artist": "Marie Magny",
+    "source": "https://scryfall.com/card/fdn/173/exsanguinate?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/1/f11d7311-4066-4a5d-ba28-9857fa707a0b.jpg?1783909073",
+    "file": "assets/cards/exsanguinate.jpg"
+  },
+  {
+    "name": "Gatekeeper of Malakir",
+    "artist": "Karl Kopinski",
+    "source": "https://scryfall.com/card/fdn/752/gatekeeper-of-malakir?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/8/58c45158-7858-409e-ab37-8a9a66ad8714.jpg?1787562911",
+    "file": "assets/cards/gatekeeper-of-malakir.jpg"
+  },
+  {
+    "name": "Hero's Downfall",
+    "artist": "Chris Rallis",
+    "source": "https://scryfall.com/card/fdn/175/heros-downfall?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/a/d/ad2c01d9-8f54-46c0-9dc9-d4d4764ce1c9.jpg?1783909074",
+    "file": "assets/cards/hero-s-downfall.jpg"
+  },
+  {
+    "name": "Knight of Malice",
+    "artist": "Sidharth Chaturvedi",
+    "source": "https://scryfall.com/card/fdn/608/knight-of-malice?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/b/b/bb678e10-e5a4-4143-8e49-7b523118674e.jpg?1783908928",
+    "file": "assets/cards/knight-of-malice.jpg"
+  },
+  {
+    "name": "Midnight Snack",
+    "artist": "Kai Carpenter",
+    "source": "https://scryfall.com/card/fdn/65/midnight-snack?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/c/9/c9b7543f-2a45-4db6-b560-d15507a58c91.jpg?1783909110",
+    "file": "assets/cards/midnight-snack.jpg"
+  },
+  {
+    "name": "Seeker's Folly",
+    "artist": "Valera Lutfullina",
+    "source": "https://scryfall.com/card/fdn/69/seekers-folly?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/b/c/bc359da6-8b7f-45ec-b530-ce159fc35953.jpg?1783909108",
+    "file": "assets/cards/seeker-s-folly.jpg"
+  },
+  {
+    "name": "Stromkirk Bloodthief",
+    "artist": "Caroline Gariba",
+    "source": "https://scryfall.com/card/fdn/185/stromkirk-bloodthief?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/4/8/485d6a5a-2054-47d5-91b8-71ce308ed4dc.jpg?1783909071",
+    "file": "assets/cards/stromkirk-bloodthief.jpg"
+  },
+  {
+    "name": "Tribute to Hunger",
+    "artist": "Dave Kendall",
+    "source": "https://scryfall.com/card/fdn/614/tribute-to-hunger?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/1/11f1b897-bb7d-4217-97a7-c89f2453c8fa.jpg?1783908926",
+    "file": "assets/cards/tribute-to-hunger.jpg"
+  },
+  {
+    "name": "Vampire Nighthawk",
+    "artist": "Jason Chan",
+    "source": "https://scryfall.com/card/fdn/757/vampire-nighthawk?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/7/a/7aff07f9-9528-4149-9af0-f4e3c66c9dc5.jpg?1787562825",
+    "file": "assets/cards/vampire-nighthawk.jpg"
+  },
+  {
+    "name": "Vampiric Rites",
+    "artist": "Anastasia Ovchinnikova",
+    "source": "https://scryfall.com/card/fdn/615/vampiric-rites?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/9/a/9ae0b1e0-a481-4a98-b67b-0cf8bac53fdd.jpg?1783908926",
+    "file": "assets/cards/vampiric-rites.jpg"
+  },
+  {
+    "name": "Vengeful Bloodwitch",
+    "artist": "Jarel Threat",
+    "source": "https://scryfall.com/card/fdn/76/vengeful-bloodwitch?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/b/d/bd0c12dd-f138-45c0-9614-d83a1d8e8399.jpg?1783909108",
+    "file": "assets/cards/vengeful-bloodwitch.jpg"
+  },
+  {
+    "name": "Zombify",
+    "artist": "Jason A. Engle",
+    "source": "https://scryfall.com/card/fdn/187/zombify?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/c/dc798e6f-13c4-457c-b052-b7b65bc83cfe.jpg?1783909070",
+    "file": "assets/cards/zombify.jpg"
+  },
+  {
+    "name": "Desecration Demon",
+    "artist": "Jason Chan",
+    "source": "https://scryfall.com/card/fdn/603/desecration-demon?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/2/52bf6460-0df6-4dd3-8af8-df728683bcaa.jpg?1783908930",
+    "file": "assets/cards/desecration-demon.jpg"
+  },
+  {
+    "name": "Kalastria Highborn",
+    "artist": "D. Alexander Gregory",
+    "source": "https://scryfall.com/card/fdn/753/kalastria-highborn?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/a/3/a3a055ed-60b0-4d35-ad58-04f324b56d65.jpg?1787562905",
+    "file": "assets/cards/kalastria-highborn.jpg"
+  },
+  {
+    "name": "Midnight Reaper",
+    "artist": "Sidharth Chaturvedi",
+    "source": "https://scryfall.com/card/fdn/609/midnight-reaper?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/2/f229b0e6-1ffd-410e-b04b-a0afc179c58c.jpg?1783908929",
+    "file": "assets/cards/midnight-reaper.jpg"
+  },
+  {
+    "name": "Nullpriest of Oblivion",
+    "artist": "Yongjae Choi",
+    "source": "https://scryfall.com/card/fdn/611/nullpriest-of-oblivion?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/b/2/b2c7613c-38fc-49c3-93ee-1df93136455a.jpg?1783908928",
+    "file": "assets/cards/nullpriest-of-oblivion.jpg"
+  },
+  {
+    "name": "Massacre Wurm",
+    "artist": "Jason Chan",
+    "source": "https://scryfall.com/card/fdn/754/massacre-wurm?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/6/7/670a36cc-34e1-4d11-808e-1b6bc88eb5d8.jpg?1787562900",
+    "file": "assets/cards/massacre-wurm.jpg"
+  },
+  {
+    "name": "Burst Lightning",
+    "artist": "Vance Kovacs",
+    "source": "https://scryfall.com/card/fdn/192/burst-lightning?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/a/e/aec5d380-d354-4750-931a-6c91853e2edc.jpg?1783909068",
+    "file": "assets/cards/burst-lightning.jpg"
+  },
+  {
+    "name": "Courageous Goblin",
+    "artist": "Ben Wootten",
+    "source": "https://scryfall.com/card/fdn/82/courageous-goblin?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/d/8db6819c-666a-409d-85a5-b9ac34d8dd2f.jpg?1783909104",
+    "file": "assets/cards/courageous-goblin.jpg"
+  },
+  {
+    "name": "Crackling Cyclops",
+    "artist": "Kev Walker",
+    "source": "https://scryfall.com/card/fdn/83/crackling-cyclops?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/6/e/6e5b899a-52f7-471b-ad50-4fa6566758fd.jpg?1783909103",
+    "file": "assets/cards/crackling-cyclops.jpg"
+  },
+  {
+    "name": "Crash Through",
+    "artist": "Izzy",
+    "source": "https://scryfall.com/card/fdn/620/crash-through?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/9/e/9eb16918-6363-4849-8d74-e26822a0ddf7.jpg?1783908924",
+    "file": "assets/cards/crash-through.jpg"
+  },
+  {
+    "name": "Dragon Fodder",
+    "artist": "Volkan Baǵa",
+    "source": "https://scryfall.com/card/fdn/535/dragon-fodder?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/9/f9abe517-f601-4784-8d62-2350bd755146.jpg?1783908954",
+    "file": "assets/cards/dragon-fodder.jpg"
+  },
+  {
+    "name": "Fanatical Firebrand",
+    "artist": "Wayne Reynolds",
+    "source": "https://scryfall.com/card/fdn/195/fanatical-firebrand?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/1/d1296316-7781-4e98-95e6-7020648be6a5.jpg?1783909067",
+    "file": "assets/cards/fanatical-firebrand.jpg"
+  },
+  {
+    "name": "Firebrand Archer",
+    "artist": "John Stanko",
+    "source": "https://scryfall.com/card/fdn/196/firebrand-archer?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/e/fe0312f1-4c98-4b7f-8a34-0059ea80edef.jpg?1783909067",
+    "file": "assets/cards/firebrand-archer.jpg"
+  },
+  {
+    "name": "Ghitu Lavarunner",
+    "artist": "Jesper Ejsing",
+    "source": "https://scryfall.com/card/fdn/623/ghitu-lavarunner?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/9/8940d76d-c09f-4d72-a037-439c70ee8d9d.jpg?1783908923",
+    "file": "assets/cards/ghitu-lavarunner.jpg"
+  },
+  {
+    "name": "Impact Tremors",
+    "artist": "Lake Hurwitz",
+    "source": "https://scryfall.com/card/fdn/717/impact-tremors?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/0/d0b7cecf-b51b-4d30-b7e9-cd7976271e07.jpg?1783908891",
+    "file": "assets/cards/impact-tremors.jpg"
+  },
+  {
+    "name": "Spitfire Lagac",
+    "artist": "Antonio José Manzanedo",
+    "source": "https://scryfall.com/card/fdn/208/spitfire-lagac?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/0/30f600cd-b696-4f49-9cbc-5a33aa43d04c.jpg?1783909063",
+    "file": "assets/cards/spitfire-lagac.jpg"
+  },
+  {
+    "name": "Thrill of Possibility",
+    "artist": "Steve Argyle",
+    "source": "https://scryfall.com/card/fdn/210/thrill-of-possibility?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/8/882b348c-076b-41d8-b505-063480636669.jpg?1783909062",
+    "file": "assets/cards/thrill-of-possibility.jpg"
+  },
+  {
+    "name": "Viashino Pyromancer",
+    "artist": "Jesper Ejsing",
+    "source": "https://scryfall.com/card/fdn/634/viashino-pyromancer?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/9/f/9f52ada2-cabc-46a3-99df-271833a86909.jpg?1783908920",
+    "file": "assets/cards/viashino-pyromancer.jpg"
+  },
+  {
+    "name": "Bolt Bend",
+    "artist": "Yuhong Ding",
+    "source": "https://scryfall.com/card/tle/163/bolt-bend?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/7/7/771b9f25-76f8-4da9-b3ab-ee51f4ad32d9.jpg?1783904804",
+    "file": "assets/cards/bolt-bend.jpg"
+  },
+  {
+    "name": "Bulk Up",
+    "artist": "Warren Mahy",
+    "source": "https://scryfall.com/card/fdn/80/bulk-up?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/9/7/977dcc50-da10-4281-b522-9240c1204f5d.jpg?1783909106",
+    "file": "assets/cards/bulk-up.jpg"
+  },
+  {
+    "name": "Giant Cindermaw",
+    "artist": "Edgar Sánchez Hidalgo",
+    "source": "https://scryfall.com/card/fdn/624/giant-cindermaw?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/6/d65f5298-0e57-49cf-aaf5-2bb16f3e636c.jpg?1783908923",
+    "file": "assets/cards/giant-cindermaw.jpg"
+  },
+  {
+    "name": "Goblin Negotiation",
+    "artist": "Svetlin Velinov",
+    "source": "https://scryfall.com/card/fdn/88/goblin-negotiation?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/2/f2016585-e26c-4d13-b09f-af6383c192f7.jpg?1783909102",
+    "file": "assets/cards/goblin-negotiation.jpg"
+  },
+  {
+    "name": "Guttersnipe",
+    "artist": "Simon Dominic",
+    "source": "https://scryfall.com/card/hoc/196/guttersnipe?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/6/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f.jpg?1785497556",
+    "file": "assets/cards/guttersnipe.jpg"
+  },
+  {
+    "name": "Heartfire Immolator",
+    "artist": "Donato Giancola",
+    "source": "https://scryfall.com/card/fdn/201/heartfire-immolator?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/c/3ca38f4d-01f5-4a02-9000-01261a440dbf.jpg?1783909070",
+    "file": "assets/cards/heartfire-immolator.jpg"
+  },
+  {
+    "name": "Obliterating Bolt",
+    "artist": "Campbell White",
+    "source": "https://scryfall.com/card/fdn/629/obliterating-bolt?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/5/d59e836b-1c7b-43ac-889b-5f94e1638c42.jpg?1783908921",
+    "file": "assets/cards/obliterating-bolt.jpg"
+  },
+  {
+    "name": "Seismic Rupture",
+    "artist": "Jason A. Engle",
+    "source": "https://scryfall.com/card/fdn/205/seismic-rupture?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/2/5/2519a51a-26a0-4884-9ba8-9db135c9ee49.jpg?1783909064",
+    "file": "assets/cards/seismic-rupture.jpg"
+  },
+  {
+    "name": "Strongbox Raider",
+    "artist": "Craig J Spearing",
+    "source": "https://scryfall.com/card/fdn/96/strongbox-raider?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/b/2/b2223eb8-59f9-489b-a3f3-b6496218cb79.jpg?1783909099",
+    "file": "assets/cards/strongbox-raider.jpg"
+  },
+  {
+    "name": "Redcap Gutter-Dweller",
+    "artist": "Alexey Kruglov",
+    "source": "https://scryfall.com/card/fdn/631/redcap-gutter-dweller?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/c/6/c6c7f55a-bcc7-4ca3-853d-fc6e260d9429.jpg?1783908920",
+    "file": "assets/cards/redcap-gutter-dweller.jpg"
+  },
+  {
+    "name": "Stromkirk Noble",
+    "artist": "James Ryman",
+    "source": "https://scryfall.com/card/fdn/632/stromkirk-noble?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/0/f/0f306c7e-cacc-4c26-a3f1-fad4f3ff7cf3.jpg?1783908921",
+    "file": "assets/cards/stromkirk-noble.jpg"
+  },
+  {
+    "name": "Taurean Mauler",
+    "artist": "Dominick Domingo",
+    "source": "https://scryfall.com/card/tdc/238/taurean-mauler?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/9/39938a5a-385b-47ba-a07b-8917cba14fd3.jpg?1783907058",
+    "file": "assets/cards/taurean-mauler.jpg"
+  },
+  {
+    "name": "Dragonmaster Outcast",
+    "artist": "Raymond Swanland",
+    "source": "https://scryfall.com/card/tdc/211/dragonmaster-outcast?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/a/4/a485edea-07cd-48dd-97e7-daeba85553d6.jpg?1783907071",
+    "file": "assets/cards/dragonmaster-outcast.jpg"
+  },
+  {
+    "name": "Ambush Wolf",
+    "artist": "Paolo Parente",
+    "source": "https://scryfall.com/card/fdn/98/ambush-wolf?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/2/9/2903832c-318e-42ab-bf58-c682ec2f7afd.jpg?1783909098",
+    "file": "assets/cards/ambush-wolf.jpg"
+  },
+  {
+    "name": "Bite Down",
+    "artist": "Kitt Lapeña",
+    "source": "https://scryfall.com/card/fdn/212/bite-down?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/8/f8d70b3b-f6f9-4b3c-ad70-0ce369e812b5.jpg?1783909062",
+    "file": "assets/cards/bite-down.jpg"
+  },
+  {
+    "name": "Broken Wings",
+    "artist": "Nils Hamm",
+    "source": "https://scryfall.com/card/dft/156/broken-wings?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/d/1d7d5b71-7c1b-4fc2-a5ec-7285e17ffe0f.jpg?1783907872",
+    "file": "assets/cards/broken-wings.jpg"
+  },
+  {
+    "name": "Dwynen's Elite",
+    "artist": "Volkan Baǵa",
+    "source": "https://scryfall.com/card/fdn/218/dwynens-elite?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/9/89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a.jpg?1783909060",
+    "file": "assets/cards/dwynen-s-elite.jpg"
+  },
+  {
+    "name": "Elfsworn Giant",
+    "artist": "Dave Dorman",
+    "source": "https://scryfall.com/card/fdn/103/elfsworn-giant?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/1/5128a5be-ffa6-4998-8488-872d80b24cb2.jpg?1783909097",
+    "file": "assets/cards/elfsworn-giant.jpg"
+  },
+  {
+    "name": "Giant Growth",
+    "artist": "Andreia Ugrai",
+    "source": "https://scryfall.com/card/msh/167/giant-growth?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/d/fd1f95bf-48ea-455a-8a6c-0249b11c8900.jpg?1783902918",
+    "file": "assets/cards/giant-growth.jpg"
+  },
+  {
+    "name": "Llanowar Elves",
+    "artist": "Kev Walker",
+    "source": "https://scryfall.com/card/fdn/227/llanowar-elves?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/6/a/6a0b230b-d391-4998-a3f7-7b158a0ec2cd.jpg?1783909057",
+    "file": "assets/cards/llanowar-elves.jpg"
+  },
+  {
+    "name": "Springbloom Druid",
+    "artist": "Randy Gallegos",
+    "source": "https://scryfall.com/card/fdn/767/springbloom-druid?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/7/17d67b88-3f76-401f-b04a-f2bcaab4aa97.jpg?1787562486",
+    "file": "assets/cards/springbloom-druid.jpg"
+  },
+  {
+    "name": "Thornweald Archer",
+    "artist": "Dave Kendall",
+    "source": "https://scryfall.com/card/fdn/559/thornweald-archer?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/8/189f6199-f2fe-49a5-89ca-3c4cb39fbf2b.jpg?1783908944",
+    "file": "assets/cards/thornweald-archer.jpg"
+  },
+  {
+    "name": "Treetop Snarespinner",
+    "artist": "Steve Ellis",
+    "source": "https://scryfall.com/card/fdn/114/treetop-snarespinner?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/8/88e68fa3-159d-49a6-8ac6-afc9bd6f1718.jpg?1783909094",
+    "file": "assets/cards/treetop-snarespinner.jpg"
+  },
+  {
+    "name": "Bushwhack",
+    "artist": "Artur Nakhodkin",
+    "source": "https://scryfall.com/card/fdn/215/bushwhack?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/0/3/03ebdb36-55e0-49dd-a514-785fbeb4ae19.jpg?1783909061",
+    "file": "assets/cards/bushwhack.jpg"
+  },
+  {
+    "name": "Circuitous Route",
+    "artist": "Milivoj Ćeran",
+    "source": "https://scryfall.com/card/fdn/635/circuitous-route?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/a/8/a806dec2-d4f9-4f8d-a1dd-170777941131.jpg?1783908920",
+    "file": "assets/cards/circuitous-route.jpg"
+  },
+  {
+    "name": "Elvish Regrower",
+    "artist": "Zoltan Boros",
+    "source": "https://scryfall.com/card/fdn/104/elvish-regrower?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/2/6/2694e3cd-26ed-4a10-ae55-fb84d7800253.jpg?1783909097",
+    "file": "assets/cards/elvish-regrower.jpg"
+  },
+  {
+    "name": "Imperious Perfect",
+    "artist": "Scott M. Fischer",
+    "source": "https://scryfall.com/card/fdn/719/imperious-perfect?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/3/83b4a09f-ea53-42b4-a41a-4299192a6fd3.jpg?1783908890",
+    "file": "assets/cards/imperious-perfect.jpg"
+  },
+  {
+    "name": "Ordeal of Nylea",
+    "artist": "David Palumbo",
+    "source": "https://scryfall.com/card/fdn/641/ordeal-of-nylea?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/a/1a70424d-86a7-44a3-acda-4463d7ac503b.jpg?1783908917",
+    "file": "assets/cards/ordeal-of-nylea.jpg"
+  },
+  {
+    "name": "Overrun",
+    "artist": "Carl Critchlow",
+    "source": "https://scryfall.com/card/fdn/230/overrun?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/d/1d8e9cbb-8bf4-4a48-a58e-79deb3abdf7f.jpg?1783909056",
+    "file": "assets/cards/overrun.jpg"
+  },
+  {
+    "name": "Pelakka Wurm",
+    "artist": "Daniel Ljunggren",
+    "source": "https://scryfall.com/card/fdn/765/pelakka-wurm?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/0/304c635c-de4d-46ee-8ab0-e5c4d55b61b3.jpg?1787562509",
+    "file": "assets/cards/pelakka-wurm.jpg"
+  },
+  {
+    "name": "Snakeskin Veil",
+    "artist": "Monztre",
+    "source": "https://scryfall.com/card/tdm/159/snakeskin-veil?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/a/3/a3d2c692-7566-468e-9c86-47a9f768fde2.jpg?1783907335",
+    "file": "assets/cards/snakeskin-veil.jpg"
+  },
+  {
+    "name": "Heroes' Bane",
+    "artist": "Raymond Swanland",
+    "source": "https://scryfall.com/card/fdn/639/heroes-bane?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/7/f/7f83195c-5150-4763-a2e1-5b109d185d55.jpg?1783908917",
+    "file": "assets/cards/heroes-bane.jpg"
+  },
+  {
+    "name": "Predator Ooze",
+    "artist": "Ryan Yee",
+    "source": "https://scryfall.com/card/fdn/642/predator-ooze?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/3/333b3cca-ebbf-4ceb-a6a5-3d49cb2e143a.jpg?1783908916",
+    "file": "assets/cards/predator-ooze.jpg"
+  },
+  {
+    "name": "Primal Might",
+    "artist": "Randy Vargas",
+    "source": "https://scryfall.com/card/fdn/766/primal-might?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/6/9/69b3f7b9-9499-4883-b5c5-c5474e470b21.jpg?1787562504",
+    "file": "assets/cards/primal-might.jpg"
+  },
+  {
+    "name": "Rampaging Baloths",
+    "artist": "Steve Prescott",
+    "source": "https://scryfall.com/card/eoc/104/rampaging-baloths?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/4/84aa18de-6acc-46cc-8e28-3046790a6751.jpg?1783906033",
+    "file": "assets/cards/rampaging-baloths.jpg"
+  },
+  {
+    "name": "Surrak, the Hunt Caller",
+    "artist": "Wesley Burt",
+    "source": "https://scryfall.com/card/fdn/768/surrak-the-hunt-caller?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/e/deb328c7-fdda-4d63-9fe4-0482c1de6098.jpg?1787562481",
+    "file": "assets/cards/surrak-the-hunt-caller.jpg"
+  },
+  {
+    "name": "Wildborn Preserver",
+    "artist": "Lius Lasahido",
+    "source": "https://scryfall.com/card/fdn/650/wildborn-preserver?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/a/8a249d1c-a5fe-48e5-bd9b-e50d8eea391b.jpg?1783908914",
+    "file": "assets/cards/wildborn-preserver.jpg"
+  },
+  {
+    "name": "Vizier of the Menagerie",
+    "artist": "Victor Adame Minguez",
+    "source": "https://scryfall.com/card/fdn/769/vizier-of-the-menagerie?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/4/14ab742a-89dc-4c01-99e3-21fc609128f2.jpg?1787562477",
+    "file": "assets/cards/vizier-of-the-menagerie.jpg"
+  },
+  {
+    "name": "Diamond Mare",
+    "artist": "Alayna Danner",
+    "source": "https://scryfall.com/card/fdn/770/diamond-mare?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/c/3c39b0ce-db4c-472c-b68e-07e6ba3a4588.jpg?1787562472",
+    "file": "assets/cards/diamond-mare.jpg"
+  },
+  {
+    "name": "Hedron Archive",
+    "artist": "Craig J Spearing",
+    "source": "https://scryfall.com/card/fdn/726/hedron-archive?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/3/535b9ac6-dba2-4162-86ed-df3e9fad0306.jpg?1783908888",
+    "file": "assets/cards/hedron-archive.jpg"
+  },
+  {
+    "name": "Heraldic Banner",
+    "artist": "Ravenna Tran",
+    "source": "https://scryfall.com/card/fdn/254/heraldic-banner?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/7/4/743ea709-dbb3-4db8-a2ce-544f47eb6339.jpg?1783909053",
+    "file": "assets/cards/heraldic-banner.jpg"
+  },
+  {
+    "name": "Meteor Golem",
+    "artist": "Domenico Cava",
+    "source": "https://scryfall.com/card/msc/205/meteor-golem?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/a/1/a1a1cfec-72ca-499b-b621-fa2d8502ea20.jpg?1783903217",
+    "file": "assets/cards/meteor-golem.jpg"
+  },
+  {
+    "name": "Adaptive Automaton",
+    "artist": "Igor Kieryluk",
+    "source": "https://scryfall.com/card/fdn/723/adaptive-automaton?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/e/3/e35e614c-51a9-4d5c-b7fa-1a0a87108785.jpg?1783908889",
+    "file": "assets/cards/adaptive-automaton.jpg"
+  },
+  {
+    "name": "Basilisk Collar",
+    "artist": "Craig J Spearing",
+    "source": "https://scryfall.com/card/fdn/669/basilisk-collar?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/7/b/7b36fba7-71f7-4b7f-bde5-b3a9752ad21c.jpg?1783908907",
+    "file": "assets/cards/basilisk-collar.jpg"
+  },
+  {
+    "name": "Cultivator's Caravan",
+    "artist": "Mark Zug",
+    "source": "https://scryfall.com/card/fdn/670/cultivators-caravan?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/2/4/249aa94c-85ab-4606-aa2c-c902bd83ac21.jpg?1783908909",
+    "file": "assets/cards/cultivator-s-caravan.jpg"
+  },
+  {
+    "name": "Gilded Lotus",
+    "artist": "Domenico Cava",
+    "source": "https://scryfall.com/card/msc/199/gilded-lotus?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/2/8/28e619e6-ecc1-49c3-8fa9-ce42becdb9ba.jpg?1783903220",
+    "file": "assets/cards/gilded-lotus.jpg"
+  },
+  {
+    "name": "Mazemind Tome",
+    "artist": "Randy Gallegos",
+    "source": "https://scryfall.com/card/fdn/676/mazemind-tome?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/4/f45072cd-e3f2-4090-b984-50ec8d360bf2.jpg?1783908904",
+    "file": "assets/cards/mazemind-tome.jpg"
+  },
+  {
+    "name": "Solemn Simulacrum",
+    "artist": "Flavio Greco Paglia",
+    "source": "https://scryfall.com/card/msc/215/solemn-simulacrum?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/a/daafd816-f7c1-4630-9e5c-a1e5db570a35.jpg?1783903212",
+    "file": "assets/cards/solemn-simulacrum.jpg"
+  },
+  {
+    "name": "Steel Hellkite",
+    "artist": "James Paick",
+    "source": "https://scryfall.com/card/tdc/327/steel-hellkite?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/4/548cbc66-d915-4b94-86da-4c909a1ce645.jpg?1783907007",
+    "file": "assets/cards/steel-hellkite.jpg"
+  },
+  {
+    "name": "Teach by Example",
+    "artist": "Johan Grenier",
+    "source": "https://scryfall.com/card/fdn/666/teach-by-example?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/1/516baae5-f7bf-4a90-a80d-192ff19dbae5.jpg?1783908908",
+    "file": "assets/cards/teach-by-example.jpg"
+  },
+  {
+    "name": "Cloudblazer",
+    "artist": "Dan Murayama Scott",
+    "source": "https://scryfall.com/card/fdn/653/cloudblazer?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/a/9/a9c966ab-0d92-4fa7-8a91-1f77089d8fc7.jpg?1783908913",
+    "file": "assets/cards/cloudblazer.jpg"
+  },
+  {
+    "name": "Dryad Militant",
+    "artist": "Aaron J. Riley",
+    "source": "https://scryfall.com/card/fdn/656/dryad-militant?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/f/8fb36712-26e9-4ec7-8946-626bb7094c15.jpg?1783908911",
+    "file": "assets/cards/dryad-militant.jpg"
+  },
+  {
+    "name": "Enigma Drake",
+    "artist": "Steve Argyle",
+    "source": "https://scryfall.com/card/fdn/657/enigma-drake?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/3/13ce1338-5a46-4d96-a991-d5fa8d4330ae.jpg?1783908911",
+    "file": "assets/cards/enigma-drake.jpg"
+  },
+  {
+    "name": "Garna, Bloodfist of Keld",
+    "artist": "Andrey Kuzinskiy",
+    "source": "https://scryfall.com/card/fdn/658/garna-bloodfist-of-keld?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/d/5d7fcd03-fffe-467a-88a5-e583e32afd7a.jpg?1783908912",
+    "file": "assets/cards/garna-bloodfist-of-keld.jpg"
+  },
+  {
+    "name": "Heroic Reinforcements",
+    "artist": "Scott Murphy",
+    "source": "https://scryfall.com/card/fdn/241/heroic-reinforcements?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/6/a/6a05e8d5-c2ad-489a-888d-22622886b620.jpg?1783909052",
+    "file": "assets/cards/heroic-reinforcements.jpg"
+  },
+  {
+    "name": "Mortify",
+    "artist": "Nils Hamm",
+    "source": "https://scryfall.com/card/fdn/662/mortify?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/8/88e85619-3a7d-48c2-b9b0-20718c913696.jpg?1783908910",
+    "file": "assets/cards/mortify.jpg"
+  },
+  {
+    "name": "Mystical Teachings",
+    "artist": "Ron Spears",
+    "source": "https://scryfall.com/card/fdn/594/mystical-teachings?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/f/3f88eacf-5c7b-4a35-86f0-af3b0516d4c2.jpg?1783908933",
+    "file": "assets/cards/mystical-teachings.jpg"
+  },
+  {
+    "name": "Ruby, Daring Tracker",
+    "artist": "Ekaterina Burmak",
+    "source": "https://scryfall.com/card/fdn/245/ruby-daring-tracker?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/e/fe3e7dd2-b66d-4218-9fde-f84bec26b7bf.jpg?1783909051",
+    "file": "assets/cards/ruby-daring-tracker.jpg"
+  },
+  {
+    "name": "Tatyova, Benthic Druid",
+    "artist": "Mathias Kollros",
+    "source": "https://scryfall.com/card/fdn/247/tatyova-benthic-druid?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/e/a/eabc978a-0666-472d-bdc6-d4b29d29eca4.jpg?1783909051",
+    "file": "assets/cards/tatyova-benthic-druid.jpg"
+  },
+  {
+    "name": "Wardens of the Cycle",
+    "artist": "Caroline Gariba",
+    "source": "https://scryfall.com/card/fdn/125/wardens-of-the-cycle?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/3/83ea9b2c-5723-4eff-88ac-6669975939e3.jpg?1783909089",
+    "file": "assets/cards/wardens-of-the-cycle.jpg"
+  },
+  {
+    "name": "Ayli, Eternal Pilgrim",
+    "artist": "Cynthia Sheppard",
+    "source": "https://scryfall.com/card/fdn/652/ayli-eternal-pilgrim?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/0/6/06969031-2c13-4b5a-bb4e-86eed025e614.jpg?1783908914",
+    "file": "assets/cards/ayli-eternal-pilgrim.jpg"
+  },
+  {
+    "name": "Consuming Aberration",
+    "artist": "Karl Kopinski",
+    "source": "https://scryfall.com/card/tdc/283/consuming-aberration?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/4/9/497fba45-201d-4688-b420-d093beb4e8f4.jpg?1783907032",
+    "file": "assets/cards/consuming-aberration.jpg"
+  },
+  {
+    "name": "Drogskol Reaver",
+    "artist": "Vincent Proce",
+    "source": "https://scryfall.com/card/fdn/655/drogskol-reaver?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/c/0/c0a4450c-8dfd-4d05-adb9-e84ec6066c7d.jpg?1783908917",
+    "file": "assets/cards/drogskol-reaver.jpg"
+  },
+  {
+    "name": "Halana and Alena, Partners",
+    "artist": "Jason Rainville",
+    "source": "https://scryfall.com/card/fdn/659/halana-and-alena-partners?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/b/6/b649f459-c9dc-495d-8703-b685996bb80c.jpg?1783908911",
+    "file": "assets/cards/halana-and-alena-partners.jpg"
+  },
+  {
+    "name": "Immersturm Predator",
+    "artist": "Nicholas Gregory",
+    "source": "https://scryfall.com/card/fdn/660/immersturm-predator?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/5/2/52dfc234-e87a-4594-8dcf-0a2f95eedc97.jpg?1783908910",
+    "file": "assets/cards/immersturm-predator.jpg"
+  },
+  {
+    "name": "Maelstrom Pulse",
+    "artist": "Chris Rallis",
+    "source": "https://scryfall.com/card/inr/244/maelstrom-pulse?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/6/6/66f17263-b916-40f4-b175-fcfd5630103d.jpg?1783908081",
+    "file": "assets/cards/maelstrom-pulse.jpg"
+  },
+  {
+    "name": "Prime Speaker Zegana",
+    "artist": "Willian Murai",
+    "source": "https://scryfall.com/card/fdn/664/prime-speaker-zegana?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/2/d2f007b0-b578-44f8-be65-cd9e2ac56e09.jpg?1783908909",
+    "file": "assets/cards/prime-speaker-zegana.jpg"
+  },
+  {
+    "name": "Wilt-Leaf Liege",
+    "artist": "Jason Chan",
+    "source": "https://scryfall.com/card/fdn/668/wilt-leaf-liege?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/4/d/4d383bbf-6bb1-4c2c-899b-65d8df9d0889.jpg?1783908908",
+    "file": "assets/cards/wilt-leaf-liege.jpg"
+  },
+  {
+    "name": "Aurelia, the Warleader",
+    "artist": "Slawomir Maniak",
+    "source": "https://scryfall.com/card/fdn/651/aurelia-the-warleader?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+    "file": "assets/cards/aurelia-the-warleader.jpg"
+  },
+  {
+    "name": "Ramos, Dragon Engine",
+    "artist": "Joseph Meehan",
+    "source": "https://scryfall.com/card/fdn/678/ramos-dragon-engine?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/8/f/8f95f753-bbaa-4282-9cd9-f1737136fc9e.jpg?1783908904",
+    "file": "assets/cards/ramos-dragon-engine.jpg"
+  },
+  {
+    "name": "Bloodfell Caves",
+    "artist": "Piotr Dura",
+    "source": "https://scryfall.com/card/tdm/250/bloodfell-caves?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/d/1dde3c68-6f29-4c00-b668-c25ac9e3e13b.jpg?1783907281",
+    "file": "assets/cards/bloodfell-caves.jpg"
+  },
+  {
+    "name": "Blossoming Sands",
+    "artist": "Piotr Dura",
+    "source": "https://scryfall.com/card/tdm/251/blossoming-sands?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/0/a/0a9df994-e0f4-4919-af99-4f643eb9199c.jpg?1783907282",
+    "file": "assets/cards/blossoming-sands.jpg"
+  },
+  {
+    "name": "Dismal Backwater",
+    "artist": "Alayna Danner",
+    "source": "https://scryfall.com/card/tdm/254/dismal-backwater?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/0/8/082b52c9-c46e-44d3-b723-546ba528e07b.jpg?1783907280",
+    "file": "assets/cards/dismal-backwater.jpg"
+  },
+  {
+    "name": "Evolving Wilds",
+    "artist": "Rytis Sabaliauskas",
+    "source": "https://scryfall.com/card/msc/240/evolving-wilds?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203",
+    "file": "assets/cards/evolving-wilds.jpg"
+  },
+  {
+    "name": "Jungle Hollow",
+    "artist": "Cristi Balanescu",
+    "source": "https://scryfall.com/card/tdm/258/jungle-hollow?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/e/a/ea13440b-3f7b-4182-9541-27c1fa3121e5.jpg?1783907280",
+    "file": "assets/cards/jungle-hollow.jpg"
+  },
+  {
+    "name": "Rugged Highlands",
+    "artist": "Carlos Palma Cruchaga",
+    "source": "https://scryfall.com/card/tdm/265/rugged-highlands?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/3/1/31261eca-28ad-407c-84ef-0c124d0d7451.jpg?1783907274",
+    "file": "assets/cards/rugged-highlands.jpg"
+  },
+  {
+    "name": "Scoured Barrens",
+    "artist": "Brent Hollowell",
+    "source": "https://scryfall.com/card/tdm/267/scoured-barrens?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/b/4/b4b47b80-69ed-44b0-afa0-ca90206dc16d.jpg?1783907273",
+    "file": "assets/cards/scoured-barrens.jpg"
+  },
+  {
+    "name": "Swiftwater Cliffs",
+    "artist": "Piotr Dura",
+    "source": "https://scryfall.com/card/tdm/268/swiftwater-cliffs?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/c/a/ca53fb19-b8ca-485b-af1a-5117ae54bfe3.jpg?1783907271",
+    "file": "assets/cards/swiftwater-cliffs.jpg"
+  },
+  {
+    "name": "Thornwood Falls",
+    "artist": "Alexander Ostrowski",
+    "source": "https://scryfall.com/card/tdm/269/thornwood-falls?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/e/b/ebb502c2-5fd0-46a9-b77d-010f4a942056.jpg?1783907271",
+    "file": "assets/cards/thornwood-falls.jpg"
+  },
+  {
+    "name": "Tranquil Cove",
+    "artist": "Kevin Sidharta",
+    "source": "https://scryfall.com/card/tdm/270/tranquil-cove?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/c/1c4efa6c-4f29-41cd-a728-bf0e479ace05.jpg?1783907271",
+    "file": "assets/cards/tranquil-cove.jpg"
+  },
+  {
+    "name": "Wind-Scarred Crag",
+    "artist": "Filip Burburan",
+    "source": "https://scryfall.com/card/tdm/271/wind-scarred-crag?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/4/9/4912e4d0-b16a-4aa6-a583-3430d26bd591.jpg?1783907269",
+    "file": "assets/cards/wind-scarred-crag.jpg"
+  },
+  {
+    "name": "Cryptic Caves",
+    "artist": "Sung Choi",
+    "source": "https://scryfall.com/card/fdn/771/cryptic-caves?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/9/d/9d126c8f-a3df-497c-aad5-a448c55f51cc.jpg?1787562439",
+    "file": "assets/cards/cryptic-caves.jpg"
+  },
+  {
+    "name": "Crawling Barrens",
+    "artist": "Jonas De Ro",
+    "source": "https://scryfall.com/card/fdn/685/crawling-barrens?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/a/c/ac2aff0e-1319-4d3b-903c-fa1ce3db7602.jpg?1783908903",
+    "file": "assets/cards/crawling-barrens.jpg"
+  },
+  {
+    "name": "Temple of Abandon",
+    "artist": "Adam Paquette",
+    "source": "https://scryfall.com/card/tdc/400/temple-of-abandon?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/2/d2ce0759-6b24-41a6-8a24-16cf44dfc162.jpg?1783906966",
+    "file": "assets/cards/temple-of-abandon.jpg"
+  },
+  {
+    "name": "Temple of Deceit",
+    "artist": "Jonas De Ro",
+    "source": "https://scryfall.com/card/fdn/697/temple-of-deceit?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/e/1/e18748ce-e52e-4cd1-89d4-cd2578a0d574.jpg?1783908897",
+    "file": "assets/cards/temple-of-deceit.jpg"
+  },
+  {
+    "name": "Temple of Enlightenment",
+    "artist": "Piotr Dura",
+    "source": "https://scryfall.com/card/eoc/186/temple-of-enlightenment?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/d/dd139d4d-3a40-4015-93de-c838c64156c6.jpg?1783906003",
+    "file": "assets/cards/temple-of-enlightenment.jpg"
+  },
+  {
+    "name": "Temple of Epiphany",
+    "artist": "Adam Paquette",
+    "source": "https://scryfall.com/card/soc/412/temple-of-epiphany?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/c/c/cc63cd97-de9e-4d31-babb-aaad1277169e.jpg?1783903716",
+    "file": "assets/cards/temple-of-epiphany.jpg"
+  },
+  {
+    "name": "Temple of Malady",
+    "artist": "Titus Lunter",
+    "source": "https://scryfall.com/card/soc/413/temple-of-malady?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/1/c/1ca36218-db87-4e44-8606-2a516504ed20.jpg?1783903717",
+    "file": "assets/cards/temple-of-malady.jpg"
+  },
+  {
+    "name": "Temple of Malice",
+    "artist": "Jonas De Ro",
+    "source": "https://scryfall.com/card/fdn/701/temple-of-malice?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/7/d78eccc4-1500-43f1-94f5-b39c160b6381.jpg?1783908896",
+    "file": "assets/cards/temple-of-malice.jpg"
+  },
+  {
+    "name": "Temple of Mystery",
+    "artist": "Piotr Dura",
+    "source": "https://scryfall.com/card/soc/414/temple-of-mystery?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/2/5/258077cf-edef-40fe-ab46-03c965ebe990.jpg?1783903715",
+    "file": "assets/cards/temple-of-mystery.jpg"
+  },
+  {
+    "name": "Temple of Plenty",
+    "artist": "Chris Ostrowski",
+    "source": "https://scryfall.com/card/tdc/405/temple-of-plenty?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/e/de1f7e5e-a503-4f99-91a1-2fdabb7d5e89.jpg?1783906962",
+    "file": "assets/cards/temple-of-plenty.jpg"
+  },
+  {
+    "name": "Temple of Silence",
+    "artist": "Karl Kopinski",
+    "source": "https://scryfall.com/card/soc/415/temple-of-silence?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/f/7/f7d3770f-cde6-4e29-8cbf-fe841634a5d7.jpg?1783903716",
+    "file": "assets/cards/temple-of-silence.jpg"
+  },
+  {
+    "name": "Temple of Triumph",
+    "artist": "Piotr Dura",
+    "source": "https://scryfall.com/card/soc/417/temple-of-triumph?utm_source=api",
+    "image": "https://cards.scryfall.io/art_crop/front/d/0/d0e763f7-25b8-444f-8722-614297d0663f.jpg?1783903716",
+    "file": "assets/cards/temple-of-triumph.jpg"
+  }
+]

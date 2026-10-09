@@ -1,0 +1,181 @@
+# mainboard
+Felidar Cub
+Hinterland Sanctifier
+Inspiring Overseer
+Ajani's Pridemate
+Angel of Finality
+Angel of Vitality
+Cat Collector
+Dawnwing Marshal
+Joust Through
+Knight of Grace
+Release the Dogs
+Resolute Reinforcements
+Savannah Lions
+Stasis Snare
+Stroke of Midnight
+Valorous Stance
+Charming Prince
+Felidar Retreat
+Fumigate
+Linden, the Steadfast Queen
+Mentor of the Meek
+Regal Caracal
+Zetalpa, Primal Dawn
+Angelic Destiny
+Lyra Dawnbringer
+Dive Down
+Into the Roil
+Lightshell Duo
+Mocking Sprite
+Negate
+Opt
+Think Twice
+Tolarian Terror
+Unsummon
+Witness Protection
+Brineborn Cutthroat
+Chart a Course
+Clinquant Skymage
+Essence Scatter
+Faebloom Trick
+Fog Bank
+Mischievous Mystic
+Shipwreck Dowser
+Spectral Sailor
+Arcanis the Omnipotent
+Harbinger of the Tides
+Rite of Replication
+River's Rebuke
+Voracious Greatshark
+Finale of Revelation
+Duress
+Feed the Swarm
+Marauding Blight-Priest
+Moment of Craving
+Pulse Tracker
+Sanguine Indulgence
+Suspicious Shambler
+Undying Malice
+Exsanguinate
+Gatekeeper of Malakir
+Hero's Downfall
+Knight of Malice
+Midnight Snack
+Seeker's Folly
+Stromkirk Bloodthief
+Tribute to Hunger
+Vampire Nighthawk
+Vampiric Rites
+Vengeful Bloodwitch
+Zombify
+Desecration Demon
+Kalastria Highborn
+Midnight Reaper
+Nullpriest of Oblivion
+Massacre Wurm
+Burst Lightning
+Courageous Goblin
+Crackling Cyclops
+Crash Through
+Dragon Fodder
+Fanatical Firebrand
+Firebrand Archer
+Ghitu Lavarunner
+Impact Tremors
+Spitfire Lagac
+Thrill of Possibility
+Viashino Pyromancer
+Bolt Bend
+Bulk Up
+Giant Cindermaw
+Goblin Negotiation
+Guttersnipe
+Heartfire Immolator
+Obliterating Bolt
+Seismic Rupture
+Strongbox Raider
+Redcap Gutter-Dweller
+Stromkirk Noble
+Taurean Mauler
+Dragonmaster Outcast
+Ambush Wolf
+Bite Down
+Broken Wings
+Dwynen's Elite
+Elfsworn Giant
+Giant Growth
+Llanowar Elves
+Springbloom Druid
+Thornweald Archer
+Treetop Snarespinner
+Bushwhack
+Circuitous Route
+Elvish Regrower
+Imperious Perfect
+Ordeal of Nylea
+Overrun
+Pelakka Wurm
+Snakeskin Veil
+Heroes' Bane
+Predator Ooze
+Primal Might
+Rampaging Baloths
+Surrak, the Hunt Caller
+Wildborn Preserver
+Vizier of the Menagerie
+Diamond Mare
+Hedron Archive
+Heraldic Banner
+Meteor Golem
+Adaptive Automaton
+Basilisk Collar
+Cultivator's Caravan
+Gilded Lotus
+Mazemind Tome
+Solemn Simulacrum
+Steel Hellkite
+Teach by Example
+Cloudblazer
+Dryad Militant
+Enigma Drake
+Garna, Bloodfist of Keld
+Heroic Reinforcements
+Mortify
+Mystical Teachings
+Ruby, Daring Tracker
+Tatyova, Benthic Druid
+Wardens of the Cycle
+Ayli, Eternal Pilgrim
+Consuming Aberration
+Drogskol Reaver
+Halana and Alena, Partners
+Immersturm Predator
+Maelstrom Pulse
+Prime Speaker Zegana
+Wilt-Leaf Liege
+Aurelia, the Warleader
+Ramos, Dragon Engine
+Bloodfell Caves
+Blossoming Sands
+Dismal Backwater
+Evolving Wilds
+Jungle Hollow
+Rugged Highlands
+Scoured Barrens
+Swiftwater Cliffs
+Thornwood Falls
+Tranquil Cove
+Wind-Scarred Crag
+Cryptic Caves
+Crawling Barrens
+Temple of Abandon
+Temple of Deceit
+Temple of Enlightenment
+Temple of Epiphany
+Temple of Malady
+Temple of Malice
+Temple of Mystery
+Temple of Plenty
+Temple of Silence
+Temple of Triumph
