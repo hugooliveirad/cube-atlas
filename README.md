@@ -6,6 +6,8 @@ Live site: https://hugobessa.com.br/cube-atlas/
 
 Check off individual copies as you add them to the cube. Each rarity group, color column, and the full cube has its own completion celebration. Small card-art thumbnails ship with the site. Search and filter by color or inclusion status; completion always measures the full collection.
 
+Hover over a thumbnail to see the full card floating beside your pointer. Keyboard focus on a card's checkbox also shows its preview; Escape dismisses it. Full card images load from Scryfall on demand. Color headings and their progress bars stay visible as you scroll through each column.
+
 ## Run
 
 ```sh
