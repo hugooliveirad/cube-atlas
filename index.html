@@ -32,7 +32,7 @@
       <div class="storage-error" id="storage-error" role="alert" hidden></div>
       <div class="roster-tabs" role="tablist" aria-label="Battlebox roster"><button class="roster-tab" id="tab-original" role="tab" aria-selected="true" aria-controls="roster-panel" data-roster="original">Original list</button><button class="roster-tab" id="tab-booster" role="tab" aria-selected="false" aria-controls="roster-panel" tabindex="-1" data-roster="booster">Play Boosters</button></div>
       <div id="roster-panel" role="tabpanel" aria-labelledby="tab-original">
-      <div class="booster-options" id="booster-options" hidden><p>Foundations Play Booster cards only. Suggestions replace cards outside the booster pool, with roles and costs that may differ. One copy each; spare land slots become spells. A starting point to playtest.</p><label class="suggestions-toggle"><input type="checkbox" id="show-suggestions" checked>Show suggested cards</label></div>
+      <div class="booster-options" id="booster-options" hidden><p>Foundations Play Booster cards only. Suggestions replace cards outside the booster pool, with roles and costs that may differ. Original column counts, with second copies of the ten dual lands. A starting point to playtest.</p><label class="suggestions-toggle"><input type="checkbox" id="show-suggestions" checked>Show suggested cards</label></div>
       <p class="roster-summary" id="roster-summary" hidden></p>
       <div class="toolbar">
         <div class="filters" aria-label="Card status"><button type="button" class="filter" data-filter="all" aria-pressed="true">All cards <span class="filter-count" id="count-all">180</span></button><button type="button" class="filter" data-filter="missing" aria-pressed="false">Missing <span class="filter-count" id="count-missing">180</span></button><button type="button" class="filter" data-filter="included" aria-pressed="false">Included <span class="filter-count" id="count-included">0</span></button></div>
@@ -194,16 +194,16 @@
         {"replaces":"Ramos, Dragon Engine","name":"Niv-Mizzet, Visionary","reason":"Keeps a multicolor flying engine; rewards noncombat damage instead of generating mana.","color":"multicolored","rarity":"Mythic"},
         {"replaces":"Cryptic Caves","name":"Rogue's Passage","reason":"Keeps a utility land, giving an attacker evasion instead of drawing a card.","color":"lands","rarity":"Uncommon"},
         {"replaces":"Crawling Barrens","name":"Soulstone Sanctuary","reason":"Keeps a land that can become a creature.","color":"lands","rarity":"Rare"},
-        {"replaces":"Temple of Abandon","name":"Secluded Courtyard","reason":"Keeps a fixing land, restricted to one creature type instead of two colors.","color":"lands","rarity":"Uncommon"},
-        {"replaces":"Temple of Deceit","name":"Cephalid Inkmage","reason":"A spare land slot becomes a blue creature with surveil and a graveyard payoff.","color":"blue","rarity":"Uncommon"},
-        {"replaces":"Temple of Enlightenment","name":"Skyship Buccaneer","reason":"A spare land slot becomes a blue flying attacker with conditional card draw.","color":"blue","rarity":"Uncommon"},
-        {"replaces":"Temple of Epiphany","name":"Electroduplicate","reason":"A spare land slot becomes a red spell that reuses a creature's entry or attack effect.","color":"red","rarity":"Rare"},
-        {"replaces":"Temple of Malady","name":"Reassembling Skeleton","reason":"A spare land slot becomes a repeatable black sacrifice resource.","color":"black","rarity":"Uncommon"},
-        {"replaces":"Temple of Malice","name":"Hungry Ghoul","reason":"A spare land slot becomes a cheap black sacrifice outlet.","color":"black","rarity":"Common"},
-        {"replaces":"Temple of Mystery","name":"Reclamation Sage","reason":"A spare land slot becomes a green creature with artifact/enchantment removal.","color":"green","rarity":"Uncommon"},
-        {"replaces":"Temple of Plenty","name":"Felidar Savior","reason":"A spare land slot becomes a white lifelink creature that distributes counters.","color":"white","rarity":"Common"},
-        {"replaces":"Temple of Silence","name":"Giada, Font of Hope","reason":"A spare land slot becomes a white flying creature that supports Angels.","color":"white","rarity":"Rare"},
-        {"replaces":"Temple of Triumph","name":"Slagstorm","reason":"A spare land slot becomes a red sweeper to keep creature swarms in check.","color":"red","rarity":"Rare"}
+        {"replaces":"Temple of Abandon","name":"Rugged Highlands","reason":"A second copy keeps the same two-color tapped mana fixing, gaining 1 life instead of scrying.","color":"lands","rarity":"Common"},
+        {"replaces":"Temple of Deceit","name":"Dismal Backwater","reason":"A second copy keeps the same two-color tapped mana fixing, gaining 1 life instead of scrying.","color":"lands","rarity":"Common"},
+        {"replaces":"Temple of Enlightenment","name":"Tranquil Cove","reason":"A second copy keeps the same two-color tapped mana fixing, gaining 1 life instead of scrying.","color":"lands","rarity":"Common"},
+        {"replaces":"Temple of Epiphany","name":"Swiftwater Cliffs","reason":"A second copy keeps the same two-color tapped mana fixing, gaining 1 life instead of scrying.","color":"lands","rarity":"Common"},
+        {"replaces":"Temple of Malady","name":"Jungle Hollow","reason":"A second copy keeps the same two-color tapped mana fixing, gaining 1 life instead of scrying.","color":"lands","rarity":"Common"},
+        {"replaces":"Temple of Malice","name":"Bloodfell Caves","reason":"A second copy keeps the same two-color tapped mana fixing, gaining 1 life instead of scrying.","color":"lands","rarity":"Common"},
+        {"replaces":"Temple of Mystery","name":"Thornwood Falls","reason":"A second copy keeps the same two-color tapped mana fixing, gaining 1 life instead of scrying.","color":"lands","rarity":"Common"},
+        {"replaces":"Temple of Plenty","name":"Blossoming Sands","reason":"A second copy keeps the same two-color tapped mana fixing, gaining 1 life instead of scrying.","color":"lands","rarity":"Common"},
+        {"replaces":"Temple of Silence","name":"Scoured Barrens","reason":"A second copy keeps the same two-color tapped mana fixing, gaining 1 life instead of scrying.","color":"lands","rarity":"Common"},
+        {"replaces":"Temple of Triumph","name":"Wind-Scarred Crag","reason":"A second copy keeps the same two-color tapped mana fixing, gaining 1 life instead of scrying.","color":"lands","rarity":"Common"}
       ]
     };
     const slug = name => name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -215,11 +215,16 @@
       });
     }));
     const boosterCards = [
-      ...originalCards.filter(card => Object.hasOwn(PLAY_BOOSTER.retained,card.name)).map(card => ({...card,rarity:PLAY_BOOSTER.retained[card.name]})),
-      ...PLAY_BOOSTER.suggestions.map(card => ({...card,id:`${card.color}:${slug(card.name)}:1`,copy:1,copies:1,suggested:true}))
+      ...originalCards.filter(card => Object.hasOwn(PLAY_BOOSTER.retained,card.name)).map(card => ({...card,rarity:PLAY_BOOSTER.retained[card.name],copies:PLAY_BOOSTER.suggestions.some(suggestion => suggestion.name === card.name) ? 2 : 1})),
+      ...PLAY_BOOSTER.suggestions.map(card => {
+        const copies = Object.hasOwn(PLAY_BOOSTER.retained,card.name) ? 2 : 1;
+        return {...card,id:`${card.color}:${slug(card.name)}:${copies}`,copy:copies,copies,suggested:true};
+      })
     ];
     let cards = originalCards, roster = 'original', showSuggestions = true;
-    const validIds = new Set([...originalCards,...boosterCards].map(card => card.id));
+    // Keep saved checkmarks readable when a suggestion is replaced in a later roster.
+    const retiredCardIds = ["lands:secluded-courtyard:1","blue:cephalid-inkmage:1","blue:skyship-buccaneer:1","red:electroduplicate:1","black:reassembling-skeleton:1","black:hungry-ghoul:1","green:reclamation-sage:1","white:felidar-savior:1","white:giada-font-of-hope:1","red:slagstorm:1"];
+    const validIds = new Set([...originalCards.map(card => card.id),...boosterCards.map(card => card.id),...retiredCardIds]);
     const PREFERENCES_KEY = 'cube-atlas.view.v1';
     try {
       const preferences = JSON.parse(localStorage.getItem(PREFERENCES_KEY) || '{}');

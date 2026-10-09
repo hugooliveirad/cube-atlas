@@ -24,17 +24,23 @@ const evidence = JSON.parse(await readFile(join(root, 'docs/play-booster-verific
 assert.deepEqual(new Set(Object.keys(booster.retained)),new Set(names.filter(name => evidence.cards.some(card => card.name === name && card.booster))), 'Retain every original card available in the booster pool');
 const boosterNames = [...Object.keys(booster.retained),...booster.suggestions.map(card => card.name)];
 assert.equal(boosterNames.length, 180);
-assert.equal(new Set(boosterNames).size, 180, 'Play Booster roster is singleton');
+assert.equal(new Set(boosterNames).size, 170, 'Only the ten dual lands are duplicated');
+const boosterCounts = Object.fromEntries(catalog.map(column => [column.id,0]));
 assert.deepEqual(new Set(booster.suggestions.map(card => card.replaces)),new Set(names.filter(name => !Object.hasOwn(booster.retained,name))), 'Every excluded card has a replacement');
 assert.equal(booster.suggestions.length, 110);
 for(const name of boosterNames) {
   const verified = evidence.cards.find(card => card.name === name);
+  boosterCounts[verified.color]++;
   assert(verified && verified.booster && verified.set === 'fdn', `${name} must be available in Foundations boosters`);
   assert(Number(verified.collectorNumber) <= 291, `${name} has a main-set printing, not only a Collector treatment`);
   const suggestion = booster.suggestions.find(card => card.name === name);
   assert.equal(suggestion?.rarity || booster.retained[name],verified.rarity, `${name} uses its booster printing rarity`);
-  if(suggestion) { assert.equal(suggestion.color,verified.color); assert(suggestion.reason); assert(!names.includes(name)); }
+  if(suggestion) {
+    assert.equal(suggestion.color,verified.color); assert(suggestion.reason);
+    if(names.includes(name)) assert.equal(suggestion.color,'lands','Only lands can duplicate original cards');
+  }
 }
+assert.deepEqual(Object.values(boosterCounts),[25,25,25,25,25,11,21,23],'Preserve every original column count');
 names.push(...booster.suggestions.map(card => card.name));
 for (const name of new Set(names)) {
   const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -42,4 +48,4 @@ for (const name of new Set(names)) {
 }
 const credits = JSON.parse(await readFile(join(root, 'docs/art-credits.json'), 'utf8'));
 assert.deepEqual(new Set(credits.map(card => card.name)), new Set(names), 'Scryfall verified every name');
-console.log(`Valid JavaScript; original list unchanged; 180-card booster roster with 70 retained and 110 verified unique replacements; ${new Set(names).size} local thumbnails.`);
+console.log(`Valid JavaScript; original list and column counts preserved; 180-card booster roster with 70 retained and 110 verified replacements, including ten second-copy dual lands; ${new Set(names).size} local thumbnails.`);
