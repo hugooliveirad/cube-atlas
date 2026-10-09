@@ -8,13 +8,14 @@ import vm from 'node:vm';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const html = await readFile(join(root, 'index.html'), 'utf8');
 const catalog = vm.runInNewContext(html.match(/const CATALOG = ([\s\S]*?);\s*const KEY/)[1]);
-const names = [...new Set(catalog.flatMap(column => Object.values(column.groups).flatMap(list => list.split('|'))))];
+const booster = vm.runInNewContext('(' + html.match(/const PLAY_BOOSTER = ([\s\S]*?);\s*const slug/)[1] + ')');
+const names = [...new Set([...catalog.flatMap(column => Object.values(column.groups).flatMap(list => list.split('|'))),...booster.suggestions.map(card => card.name)])];
 const slug = name => name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const headers = { 'User-Agent': 'CubeAtlas/1.0 (github.com/hugooliveirad/cube-atlas)', Accept: 'application/json', 'Content-Type': 'application/json' };
 const cards = [];
 for (let i = 0; i < names.length; i += 75) {
   const response = await fetch('https://api.scryfall.com/cards/collection', {
-    method: 'POST', headers, body: JSON.stringify({ identifiers: names.slice(i, i + 75).map(name => ({ name })) })
+    method: 'POST', headers, body: JSON.stringify({ identifiers: names.slice(i, i + 75).map(name => ({ name, set: 'fdn' })) })
   });
   if (!response.ok) throw new Error(`Scryfall: ${response.status}`);
   const data = await response.json();

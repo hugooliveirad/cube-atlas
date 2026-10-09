@@ -22,6 +22,16 @@ Progress stays in this browser under `cube-atlas.progress.v1`. It does not sync 
 
 The runtime catalog lives in `index.html`. Its column totals are 25 white, 25 blue, 25 black, 25 red, 25 green, 11 colorless, 21 multicolored, and 23 lands. The catalog check verifies every card against the supplied text file, in order.
 
+## Play Booster alternative
+
+The **Original list** tab preserves the supplied list. **Play Boosters** builds a separate 180-card Foundations roster from 70 eligible original cards and 110 suggested replacements. Each suggestion names the card it replaces; hover its row for the reasoning. Suggestions match roles where possible, but mana costs, rarity, and power can differ. This is a starting point for playtesting, not a tested balance claim.
+
+The alternative remains singleton. Foundations boosters have fewer distinct nonbasic lands than the original list, so nine land slots become additional spells. Cards are grouped by their actual booster-printing rarity. In particular, Bushwhack is common in boosters even though the original reference groups it as uncommon.
+
+**Show suggested cards** changes visibility only: hidden suggestions still count toward the 180-card target. Checkmarks for shared cards carry between tabs. Original-only cards and replacements remain independent, and progress, group milestones, and completion celebrations use the selected roster. Existing progress and version 1 backups remain compatible; backups now include checked cards from both rosters. Tab and visibility preferences use `cube-atlas.view.v1` separately from collection data.
+
+Eligibility was checked against Scryfall's Foundations booster pool and [Wizards' product guide](https://magic.wizards.com/en/news/feature/collecting-foundations). [Verification metadata](docs/play-booster-verification.json) records the chosen printings and date. `PLAY_BOOSTER` in the HTML contains the retained cards and suggested changes; it does not alter the original catalog. No Special Guests or Collector-only treatments are required.
+
 ## Check or refresh art
 
 ```sh
