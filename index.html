@@ -221,6 +221,7 @@
         return {...card,id:`${card.color}:${slug(card.name)}:${copies}`,copy:copies,copies,suggested:true};
       })
     ];
+    boosterCards.sort((a,b) => a.name.localeCompare(b.name,'en') || a.copy - b.copy);
     let cards = originalCards, roster = 'original', showSuggestions = true;
     // Keep saved checkmarks readable when a suggestion is replaced in a later roster.
     const retiredCardIds = ["lands:secluded-courtyard:1","blue:cephalid-inkmage:1","blue:skyship-buccaneer:1","red:electroduplicate:1","black:reassembling-skeleton:1","black:hungry-ghoul:1","green:reclamation-sage:1","white:felidar-savior:1","white:giada-font-of-hope:1","red:slagstorm:1"];
@@ -271,9 +272,21 @@
         image.src = sources.get(card.name);
       } catch { previewSources = null; }
     }
+    function bindPreviewPointer(target,card) {
+      target.addEventListener('pointerenter',event => { if(event.pointerType !== 'touch' && !previewFocus) showPreview(card,event.clientX,event.clientY); });
+      target.addEventListener('pointermove',event => {
+        if(event.pointerType === 'touch') return;
+        if(previewFocus) return showPreview(card,event.clientX,event.clientY);
+        previewPoint = {x:event.clientX,y:event.clientY};
+        if(!$('card-preview').hidden) positionPreview();
+      });
+      target.addEventListener('pointerleave',() => { if(!previewFocus) hidePreview(); });
+      target.addEventListener('pointerdown',hidePreview);
+    }
     window.addEventListener('scroll',() => {
       if(!previewFocus || previewFocus !== document.activeElement) return hidePreview();
-      const bounds = previewFocus.closest('.card').querySelector('.art').getBoundingClientRect();
+      const anchor = previewFocus.matches('a') ? previewFocus : previewFocus.closest('.card').querySelector('.art');
+      const bounds = anchor.getBoundingClientRect();
       if(bounds.bottom < 0 || bounds.top > innerHeight) return hidePreview();
       previewPoint = {x:bounds.right,y:bounds.top}; positionPreview();
     },true);
@@ -313,22 +326,23 @@
           for(const card of cards.filter(c => c.color === column.id && c.rarity === rarity)) {
             const label = document.createElement('label'); label.className = 'card'; label.dataset.suggested = String(!!card.suggested);
             const art = document.createElement('span'); art.className = 'art'; art.setAttribute('aria-hidden','true');
-            art.addEventListener('pointerenter',event => { if(event.pointerType !== 'touch' && !previewFocus) showPreview(card,event.clientX,event.clientY); });
-            art.addEventListener('pointermove',event => {
-              if(event.pointerType === 'touch') return;
-              if(previewFocus) return showPreview(card,event.clientX,event.clientY);
-              previewPoint = {x:event.clientX,y:event.clientY};
-              if(!$('card-preview').hidden) positionPreview();
-            });
-            art.addEventListener('pointerleave',() => { if(!previewFocus) hidePreview(); });
-            art.addEventListener('pointerdown',hidePreview);
+            bindPreviewPointer(art,card);
             const img = document.createElement('img'); img.src = `assets/cards/${slug(card.name)}.jpg`; img.alt = ''; img.loading = 'lazy'; img.width = 70; img.height = 70;
             img.addEventListener('error',() => img.hidden = true); art.append(img);
             const name = document.createElement('span'); name.className = 'card-name'; name.textContent = card.name;
             if(card.copies > 1) { const copy = document.createElement('span'); copy.className = 'copy-number'; copy.textContent = ` ${card.copy}/${card.copies}`; name.append(copy); }
             if(card.suggested) {
               const badge = document.createElement('span'); badge.className = 'suggestion-badge'; badge.textContent = 'Suggested';
-              const replacement = document.createElement('span'); replacement.className = 'replacement-name'; replacement.textContent = `For ${card.replaces}`;
+              const replacement = document.createElement('a'); replacement.className = 'replacement-name'; replacement.textContent = `For ${card.replaces}`;
+              replacement.href = `https://scryfall.com/search?q=${encodeURIComponent(`!"${card.replaces}"`)}`;
+              replacement.target = '_blank'; replacement.rel = 'noreferrer';
+              replacement.setAttribute('aria-label',`View ${card.replaces} on Scryfall (opens in a new tab)`);
+              bindPreviewPointer(replacement,{name:card.replaces});
+              replacement.addEventListener('focus',() => {
+                if(!replacement.matches(':focus-visible')) return;
+                const bounds = replacement.getBoundingClientRect(); showPreview({name:card.replaces},bounds.right,bounds.top,replacement);
+              });
+              replacement.addEventListener('blur',hidePreview);
               name.append(badge,replacement); label.title = `Replaces ${card.replaces}. ${card.reason}`;
             }
             const input = document.createElement('input'); input.type = 'checkbox'; input.dataset.card = card.id;
