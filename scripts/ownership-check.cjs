@@ -77,8 +77,8 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
       await page.locator('#owned-file').setInputFiles(process.env.COLLECTION_CSV);
       await page.waitForFunction(() => document.querySelector('#owned-file').value === '');
       const counts = await page.evaluate(() => JSON.parse(localStorage.getItem('cube-atlas.owned.v1')).counts);
-      assert.equal(Object.keys(counts).length,179);
-      console.log('Verified the local Mythic Tools export: 179 matching card names.');
+      assert.equal(Object.keys(counts).length,977);
+      console.log('Verified the local Mythic Tools export: 977 collection names retained for both pages.');
     }
     const blocked = await browser.newContext();
     await blocked.addInitScript(() => { Storage.prototype.setItem = () => { throw new Error('Storage full'); }; });

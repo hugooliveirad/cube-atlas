@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f7f2">
+<title>Leftover decks — Cube Atlas</title><link rel="icon" href="assets/cube.svg"><link rel="stylesheet" href="decks.css"><script src="decks.js" defer></script>
+</head>
+<body>
+<div class="page">
+<header><a class="brand" href="./"><img src="assets/cube.svg" alt="">Cube Atlas</a><a href="./">← Back to the battlebox</a></header>
+<main>
+<div class="intro"><div><p class="eyebrow">A second life for your cards</p><h1>Six decks, <em>still in the box.</em></h1><p>Pick the ones you like. Build them with the copies left after your battlebox.</p></div><div class="overall"><strong id="completion">0 / 0</strong><span id="completion-label">selected decks completed</span><progress id="progress" value="0" max="1" aria-label="Selected decks completed"></progress></div></div>
+<div class="setup"><label>Reserve the full battlebox <select id="roster"><option value="booster">Play Boosters · 180 cards</option><option value="original">Original list · 180 cards</option></select></label><p id="collection-status" role="status">Loading collection…</p><a href="./#import-owned">Import or update collection ↗</a></div>
+<p class="explanation">All 180 battlebox slots are reserved, whether checked or not. Selected decks share the remaining copies, including basic lands. A completion checkmark means you have assembled that deck.</p>
+<div id="error" role="alert" hidden></div>
+<div class="toolbar"><div class="filters" aria-label="Deck display"><button data-filter="all" aria-pressed="true">All six</button><button data-filter="picked" aria-pressed="false">My picks <span id="picked-count">0</span></button><button data-filter="completed" aria-pressed="false">Completed <span id="completed-count">0</span></button></div><p id="allocation" role="status"></p></div>
+<div id="decks" class="deck-grid"></div><p id="empty" hidden>No decks here yet. Pick a favorite from All six.</p>
+</main>
+<footer><p>Saved in this browser. Casual 40-card proposals to playtest together.</p><p>Card details via <a href="https://scryfall.com" target="_blank" rel="noreferrer">Scryfall</a> · Built around <a href="https://magic.wizards.com/en/news/feature/foundations-prerelease-guide" target="_blank" rel="noreferrer">Foundations strategies</a>.</p></footer>
+</div>
+<div id="preview" hidden><img alt=""></div><div id="toast" role="status" hidden></div><div id="sparkles" aria-hidden="true"></div>
+</body></html>

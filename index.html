@@ -24,7 +24,7 @@
 </head>
 <body>
   <div class="page">
-    <header class="masthead"><div class="brand"><img src="assets/cube.svg" alt="">Cube Atlas</div><span class="edition">Foundations · 180 cards</span></header>
+    <header class="masthead"><div class="brand"><img src="assets/cube.svg" alt="">Cube Atlas</div><a class="edition" href="decks.html">Leftover decks ↗</a></header>
     <main>
       <section class="intro" aria-labelledby="page-title">
         <div><p class="eyebrow">Piece by piece</p><h1>A cube, <em>coming together.</em></h1><p class="intro-copy">A home for every card. Check them off as they join your cube.</p></div>
@@ -247,7 +247,7 @@
     const catalogNames = new Map([...originalCards,...boosterCards].map(card => [normalizeName(card.name),card.name]));
     let ownership = null, ownershipError = '';
     function validateOwnership(data) {
-      if(!data || data.version !== 1 || typeof data.source !== 'string' || !data.counts || typeof data.counts !== 'object' || Array.isArray(data.counts) || Object.entries(data.counts).some(([name,n]) => !catalogNames.has(normalizeName(name)) || !Number.isSafeInteger(n) || n < 1)) throw new Error('Invalid collection data');
+      if(!data || data.version !== 1 || typeof data.source !== 'string' || !data.counts || typeof data.counts !== 'object' || Array.isArray(data.counts) || Object.entries(data.counts).some(([name,n]) => !name.trim() || !Number.isSafeInteger(n) || n < 1)) throw new Error('Invalid collection data');
       return data;
     }
     try { const raw = localStorage.getItem(OWNED_KEY); if(raw) ownership = validateOwnership(JSON.parse(raw)); }
@@ -272,11 +272,12 @@
       const english = headers.indexOf('English Name'), nameIndex = headers.indexOf('Card Name'), quantity = headers.indexOf('Quantity');
       if((english < 0 && nameIndex < 0) || quantity < 0) throw new Error('Choose a Mythic Tools CSV with English Name or Card Name, and Quantity columns.');
       if(!rows.length) throw new Error('This export has no cards. Your previous collection is unchanged.');
-      const counts = Object.create(null);
+      const counts = Object.create(null), names = new Map(catalogNames);
       for(const [index,values] of rows.entries()) {
         const name = (values[english] || values[nameIndex] || '').trim(), rawCount = (values[quantity] || '').trim();
         if(!name || !/^\d+$/.test(rawCount) || !Number.isSafeInteger(Number(rawCount))) throw new Error(`Check the card name and quantity on CSV row ${index + 2}.`);
-        const canonical = catalogNames.get(normalizeName(name)), n = Number(rawCount);
+        const normalized = normalizeName(name), canonical = names.get(normalized) || name, n = Number(rawCount);
+        names.set(normalized,canonical);
         if(canonical && n > 0) { counts[canonical] = (counts[canonical] || 0) + n; if(!Number.isSafeInteger(counts[canonical])) throw new Error('A card quantity is too large.'); }
       }
       return counts;
@@ -550,11 +551,11 @@
     $('owned-file').addEventListener('change',async event => {
       const file = event.target.files[0]; if(!file) return;
       try {
-        const next = {version:1,source:file.name,counts:parseCollection(await file.text())};
+        const next = {version:1,full:true,source:file.name,counts:parseCollection(await file.text())};
         ownership = next; ownershipError = '';
         try { localStorage.setItem(OWNED_KEY,JSON.stringify(next)); }
         catch { ownershipError = 'Ownership loaded for this session only. Browser storage is unavailable; keep your CSV to import again.'; }
-        update(); showToast('Collection imported.',`${Object.keys(next.counts).length} matching card names. Included checkboxes are unchanged.`);
+        update(); showToast('Collection imported.',`${Object.keys(next.counts).length} card names. Included checkboxes are unchanged.`);
       } catch(error) { ownershipError = error.message; update(); }
       event.target.value = '';
     });

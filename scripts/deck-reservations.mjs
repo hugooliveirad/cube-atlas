@@ -1,0 +1,13 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const root = new URL('../',import.meta.url);
+const html = await readFile(new URL('index.html',root),'utf8');
+const script = html.match(/<script>([\s\S]*?)<\/script>/)[1];
+const rosters = JSON.parse(vm.runInNewContext(script.slice(0,script.indexOf('    let cards =')) + '\nJSON.stringify({original:originalCards,booster:boosterCards})'));
+const counts = Object.fromEntries(Object.entries(rosters).map(([key,cards]) => [key,cards.reduce((result,card) => {result[card.name]=(result[card.name] || 0)+1;return result;},{})]));
+const content = JSON.stringify(counts,null,2)+'\n';
+const path = new URL('data/battlebox-reservations.json',root);
+if(process.argv.includes('--check')) assert.equal(await readFile(path,'utf8'),content,'Regenerate battlebox reservations after changing a roster');
+else await writeFile(path,content);
+console.log('Battlebox reservations match the canonical rosters.');

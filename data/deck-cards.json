@@ -1,0 +1,1126 @@
+{
+  "Nessian Hornbeetle": {
+    "mana": "{1}{G}",
+    "cmc": 2,
+    "type": "Creature — Insect",
+    "colors": [
+      "G"
+    ],
+    "text": "At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on this creature.",
+    "image": "https://cards.scryfall.io/normal/front/3/d/3d4d93de-85c6-4653-8ddd-d8bf21516d44.jpg?1783909057",
+    "art": "https://cards.scryfall.io/art_crop/front/3/d/3d4d93de-85c6-4653-8ddd-d8bf21516d44.jpg?1783909057",
+    "source": "https://scryfall.com/card/fdn/229/nessian-hornbeetle?utm_source=api",
+    "thumbnail": "assets/cards/nessian-hornbeetle.jpg"
+  },
+  "Youthful Valkyrie": {
+    "mana": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature — Angel",
+    "colors": [
+      "W"
+    ],
+    "text": "Flying\nWhenever another Angel you control enters, put a +1/+1 counter on this creature.",
+    "image": "https://cards.scryfall.io/normal/front/9/d/9d795f79-c3a5-4ea1-a5cf-1ce73d6837b6.jpg?1783909083",
+    "art": "https://cards.scryfall.io/art_crop/front/9/d/9d795f79-c3a5-4ea1-a5cf-1ce73d6837b6.jpg?1783909083",
+    "source": "https://scryfall.com/card/fdn/149/youthful-valkyrie?utm_source=api",
+    "thumbnail": "assets/decks/youthful-valkyrie.jpg"
+  },
+  "Macabre Waltz": {
+    "mana": "{1}{B}",
+    "cmc": 2,
+    "type": "Sorcery",
+    "colors": [
+      "B"
+    ],
+    "text": "Return up to two target creature cards from your graveyard to your hand, then discard a card.",
+    "image": "https://cards.scryfall.io/normal/front/4/d/4d1f3c84-89ba-4426-a80b-d524f172c912.jpg?1783909073",
+    "art": "https://cards.scryfall.io/art_crop/front/4/d/4d1f3c84-89ba-4426-a80b-d524f172c912.jpg?1783909073",
+    "source": "https://scryfall.com/card/fdn/177/macabre-waltz?utm_source=api",
+    "thumbnail": "assets/cards/macabre-waltz.jpg"
+  },
+  "Banishing Light": {
+    "mana": "{2}{W}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "colors": [
+      "W"
+    ],
+    "text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.",
+    "image": "https://cards.scryfall.io/normal/front/e/3/e38dc3b3-1629-491b-8afd-0e7a9a857713.jpg?1783909086",
+    "art": "https://cards.scryfall.io/art_crop/front/e/3/e38dc3b3-1629-491b-8afd-0e7a9a857713.jpg?1783909086",
+    "source": "https://scryfall.com/card/fdn/138/banishing-light?utm_source=api",
+    "thumbnail": "assets/cards/banishing-light.jpg"
+  },
+  "Cackling Prowler": {
+    "mana": "{3}{G}",
+    "cmc": 4,
+    "type": "Creature — Hyena Rogue",
+    "colors": [
+      "G"
+    ],
+    "text": "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nMorbid — At the beginning of your end step, if a creature died this turn, put a +1/+1 counter on this creature.",
+    "image": "https://cards.scryfall.io/normal/front/1/b/1bd8e971-c075-4203-8d83-c28f22d4f9b9.jpg?1783909098",
+    "art": "https://cards.scryfall.io/art_crop/front/1/b/1bd8e971-c075-4203-8d83-c28f22d4f9b9.jpg?1783909098",
+    "source": "https://scryfall.com/card/fdn/101/cackling-prowler?utm_source=api",
+    "thumbnail": "assets/cards/cackling-prowler.jpg"
+  },
+  "Wind-Scarred Crag": {
+    "mana": "",
+    "cmc": 0,
+    "type": "Land",
+    "colors": [],
+    "text": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {R} or {W}.",
+    "image": "https://cards.scryfall.io/normal/front/7/5/759e99df-11a8-4aee-b6bc-344e84e10d94.jpg?1783909043",
+    "art": "https://cards.scryfall.io/art_crop/front/7/5/759e99df-11a8-4aee-b6bc-344e84e10d94.jpg?1783909043",
+    "source": "https://scryfall.com/card/fdn/271/wind-scarred-crag?utm_source=api",
+    "thumbnail": "assets/cards/wind-scarred-crag.jpg"
+  },
+  "Loot, Exuberant Explorer": {
+    "mana": "{2}{G}",
+    "cmc": 3,
+    "type": "Legendary Creature — Beast Noble",
+    "colors": [
+      "G"
+    ],
+    "text": "You may play an additional land on each of your turns.\n{4}{G}{G}, {T}: Look at the top six cards of your library. You may reveal a creature card with mana value less than or equal to the number of lands you control from among them and put it onto the battlefield. Put the rest on the bottom in a random order.",
+    "image": "https://cards.scryfall.io/normal/front/0/9/09980ce6-425b-4e03-94d0-0f02043cb361.jpg?1783909097",
+    "art": "https://cards.scryfall.io/art_crop/front/0/9/09980ce6-425b-4e03-94d0-0f02043cb361.jpg?1783909097",
+    "source": "https://scryfall.com/card/fdn/106/loot-exuberant-explorer?utm_source=api",
+    "thumbnail": "assets/decks/loot-exuberant-explorer.jpg"
+  },
+  "Bake into a Pie": {
+    "mana": "{2}{B}{B}",
+    "cmc": 4,
+    "type": "Instant",
+    "colors": [
+      "B"
+    ],
+    "text": "Destroy target creature. Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")",
+    "image": "https://cards.scryfall.io/normal/front/2/a/2ab0e660-86a3-4b92-82fa-77dcb5db947d.jpg?1783909076",
+    "art": "https://cards.scryfall.io/art_crop/front/2/a/2ab0e660-86a3-4b92-82fa-77dcb5db947d.jpg?1783909076",
+    "source": "https://scryfall.com/card/fdn/169/bake-into-a-pie?utm_source=api",
+    "thumbnail": "assets/cards/bake-into-a-pie.jpg"
+  },
+  "Garruk's Uprising": {
+    "mana": "{2}{G}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "colors": [
+      "G"
+    ],
+    "text": "When this enchantment enters, if you control a creature with power 4 or greater, draw a card.\nCreatures you control have trample. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)\nWhenever a creature you control with power 4 or greater enters, draw a card.",
+    "image": "https://cards.scryfall.io/normal/front/4/8/4805c303-e73b-443b-a09f-49d2c2c88bb5.jpg?1783909059",
+    "art": "https://cards.scryfall.io/art_crop/front/4/8/4805c303-e73b-443b-a09f-49d2c2c88bb5.jpg?1783909059",
+    "source": "https://scryfall.com/card/fdn/220/garruks-uprising?utm_source=api",
+    "thumbnail": "assets/cards/garruk-s-uprising.jpg"
+  },
+  "Tranquil Cove": {
+    "mana": "",
+    "cmc": 0,
+    "type": "Land",
+    "colors": [],
+    "text": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {W} or {U}.",
+    "image": "https://cards.scryfall.io/normal/front/7/c/7c9cabca-5bcc-4b97-b2ac-a345ad3ee43c.jpg?1783909043",
+    "art": "https://cards.scryfall.io/art_crop/front/7/c/7c9cabca-5bcc-4b97-b2ac-a345ad3ee43c.jpg?1783909043",
+    "source": "https://scryfall.com/card/fdn/270/tranquil-cove?utm_source=api",
+    "thumbnail": "assets/cards/tranquil-cove.jpg"
+  },
+  "Marauding Blight-Priest": {
+    "mana": "{2}{B}",
+    "cmc": 3,
+    "type": "Creature — Vampire Cleric",
+    "colors": [
+      "B"
+    ],
+    "text": "Whenever you gain life, each opponent loses 1 life.",
+    "image": "https://cards.scryfall.io/normal/front/5/f/5f70dafc-c638-4ec0-ab5b-62998f752720.jpg?1783909072",
+    "art": "https://cards.scryfall.io/art_crop/front/5/f/5f70dafc-c638-4ec0-ab5b-62998f752720.jpg?1783909072",
+    "source": "https://scryfall.com/card/fdn/178/marauding-blight-priest?utm_source=api",
+    "thumbnail": "assets/cards/marauding-blight-priest.jpg"
+  },
+  "Forest": {
+    "mana": "",
+    "cmc": 0,
+    "type": "Basic Land — Forest",
+    "colors": [],
+    "text": "({T}: Add {G}.)",
+    "image": "https://cards.scryfall.io/normal/front/d/2/d232fcc2-12f6-401a-b1aa-ddff11cb9378.jpg?1783909039",
+    "art": "https://cards.scryfall.io/art_crop/front/d/2/d232fcc2-12f6-401a-b1aa-ddff11cb9378.jpg?1783909039",
+    "source": "https://scryfall.com/card/fdn/280/forest?utm_source=api",
+    "thumbnail": "assets/decks/forest.jpg"
+  },
+  "Goblin Surprise": {
+    "mana": "{2}{R}",
+    "cmc": 3,
+    "type": "Instant",
+    "colors": [
+      "R"
+    ],
+    "text": "Choose one —\n• Creatures you control get +2/+0 until end of turn.\n• Create two 1/1 red Goblin creature tokens.",
+    "image": "https://cards.scryfall.io/normal/front/5/2/527dd5d4-5f72-40bb-8a9d-1f5ac3f81e2e.jpg?1783909066",
+    "art": "https://cards.scryfall.io/art_crop/front/5/2/527dd5d4-5f72-40bb-8a9d-1f5ac3f81e2e.jpg?1783909066",
+    "source": "https://scryfall.com/card/fdn/200/goblin-surprise?utm_source=api",
+    "thumbnail": "assets/cards/goblin-surprise.jpg"
+  },
+  "Bite Down": {
+    "mana": "{1}{G}",
+    "cmc": 2,
+    "type": "Instant",
+    "colors": [
+      "G"
+    ],
+    "text": "Target creature you control deals damage equal to its power to target creature or planeswalker you don't control.",
+    "image": "https://cards.scryfall.io/normal/front/f/8/f8d70b3b-f6f9-4b3c-ad70-0ce369e812b5.jpg?1783909062",
+    "art": "https://cards.scryfall.io/art_crop/front/f/8/f8d70b3b-f6f9-4b3c-ad70-0ce369e812b5.jpg?1783909062",
+    "source": "https://scryfall.com/card/fdn/212/bite-down?utm_source=api",
+    "thumbnail": "assets/cards/bite-down.jpg"
+  },
+  "Mischievous Mystic": {
+    "mana": "{1}{U}",
+    "cmc": 2,
+    "type": "Creature — Human Wizard",
+    "colors": [
+      "U"
+    ],
+    "text": "Flying\nWhenever you draw your second card each turn, create a 1/1 blue Faerie creature token with flying.",
+    "image": "https://cards.scryfall.io/normal/front/2/0/20d89cec-528b-4b2a-87db-e11ce0000622.jpg?1783909116",
+    "art": "https://cards.scryfall.io/art_crop/front/2/0/20d89cec-528b-4b2a-87db-e11ce0000622.jpg?1783909116",
+    "source": "https://scryfall.com/card/fdn/47/mischievous-mystic?utm_source=api",
+    "thumbnail": "assets/cards/mischievous-mystic.jpg"
+  },
+  "Felling Blow": {
+    "mana": "{2}{G}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "colors": [
+      "G"
+    ],
+    "text": "Put a +1/+1 counter on target creature you control. Then that creature deals damage equal to its power to target creature an opponent controls.",
+    "image": "https://cards.scryfall.io/normal/front/9/6/96948ae3-b15d-4d6d-aa73-9f52084cd903.jpg?1783909097",
+    "art": "https://cards.scryfall.io/art_crop/front/9/6/96948ae3-b15d-4d6d-aa73-9f52084cd903.jpg?1783909097",
+    "source": "https://scryfall.com/card/fdn/105/felling-blow?utm_source=api",
+    "thumbnail": "assets/cards/felling-blow.jpg"
+  },
+  "Cat Collector": {
+    "mana": "{2}{W}",
+    "cmc": 3,
+    "type": "Creature — Human Citizen",
+    "colors": [
+      "W"
+    ],
+    "text": "When this creature enters, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\nWhenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token.",
+    "image": "https://cards.scryfall.io/normal/front/5/2/526fe356-bff1-4211-9e88-bf913ac76b1d.jpg?1783909129",
+    "art": "https://cards.scryfall.io/art_crop/front/5/2/526fe356-bff1-4211-9e88-bf913ac76b1d.jpg?1783909129",
+    "source": "https://scryfall.com/card/fdn/4/cat-collector?utm_source=api",
+    "thumbnail": "assets/cards/cat-collector.jpg"
+  },
+  "Koma, World-Eater": {
+    "mana": "{3}{G}{G}{U}{U}",
+    "cmc": 7,
+    "type": "Legendary Creature — Serpent",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "text": "This spell can't be countered.\nTrample, ward {4}\nWhenever Koma deals combat damage to a player, create four 3/3 blue Serpent creature tokens named Koma's Coil.",
+    "image": "https://cards.scryfall.io/normal/front/c/3/c3b92caa-3401-4b11-9515-152f3e057c05.jpg?1783909091",
+    "art": "https://cards.scryfall.io/art_crop/front/c/3/c3b92caa-3401-4b11-9515-152f3e057c05.jpg?1783909091",
+    "source": "https://scryfall.com/card/fdn/121/koma-world-eater?utm_source=api",
+    "thumbnail": "assets/decks/koma-world-eater.jpg"
+  },
+  "Burst Lightning": {
+    "mana": "{R}",
+    "cmc": 1,
+    "type": "Instant",
+    "colors": [
+      "R"
+    ],
+    "text": "Kicker {4} (You may pay an additional {4} as you cast this spell.)\nBurst Lightning deals 2 damage to any target. If this spell was kicked, it deals 4 damage instead.",
+    "image": "https://cards.scryfall.io/normal/front/a/e/aec5d380-d354-4750-931a-6c91853e2edc.jpg?1783909068",
+    "art": "https://cards.scryfall.io/art_crop/front/a/e/aec5d380-d354-4750-931a-6c91853e2edc.jpg?1783909068",
+    "source": "https://scryfall.com/card/fdn/192/burst-lightning?utm_source=api",
+    "thumbnail": "assets/cards/burst-lightning.jpg"
+  },
+  "Balmor, Battlemage Captain": {
+    "mana": "{U}{R}",
+    "cmc": 2,
+    "type": "Legendary Creature — Bird Wizard",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "text": "Flying\nWhenever you cast an instant or sorcery spell, creatures you control get +1/+0 and gain trample until end of turn.",
+    "image": "https://cards.scryfall.io/normal/front/0/b/0b45ab13-9bb6-48af-8b37-d97b25801ac8.jpg?1783909054",
+    "art": "https://cards.scryfall.io/art_crop/front/0/b/0b45ab13-9bb6-48af-8b37-d97b25801ac8.jpg?1783909054",
+    "source": "https://scryfall.com/card/fdn/237/balmor-battlemage-captain?utm_source=api",
+    "thumbnail": "assets/cards/balmor-battlemage-captain.jpg",
+    "hero": "assets/decks/hero-balmor-battlemage-captain.jpg"
+  },
+  "Thrill of Possibility": {
+    "mana": "{1}{R}",
+    "cmc": 2,
+    "type": "Instant",
+    "colors": [
+      "R"
+    ],
+    "text": "As an additional cost to cast this spell, discard a card.\nDraw two cards.",
+    "image": "https://cards.scryfall.io/normal/front/8/8/882b348c-076b-41d8-b505-063480636669.jpg?1783909062",
+    "art": "https://cards.scryfall.io/art_crop/front/8/8/882b348c-076b-41d8-b505-063480636669.jpg?1783909062",
+    "source": "https://scryfall.com/card/fdn/210/thrill-of-possibility?utm_source=api",
+    "thumbnail": "assets/cards/thrill-of-possibility.jpg"
+  },
+  "Exsanguinate": {
+    "mana": "{X}{B}{B}",
+    "cmc": 2,
+    "type": "Sorcery",
+    "colors": [
+      "B"
+    ],
+    "text": "Each opponent loses X life. You gain life equal to the life lost this way.",
+    "image": "https://cards.scryfall.io/normal/front/f/1/f11d7311-4066-4a5d-ba28-9857fa707a0b.jpg?1783909073",
+    "art": "https://cards.scryfall.io/art_crop/front/f/1/f11d7311-4066-4a5d-ba28-9857fa707a0b.jpg?1783909073",
+    "source": "https://scryfall.com/card/fdn/173/exsanguinate?utm_source=api",
+    "thumbnail": "assets/cards/exsanguinate.jpg"
+  },
+  "Giada, Font of Hope": {
+    "mana": "{1}{W}",
+    "cmc": 2,
+    "type": "Legendary Creature — Angel",
+    "colors": [
+      "W"
+    ],
+    "text": "Flying, vigilance\nEach other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.\n{T}: Add {W}. Spend this mana only to cast an Angel spell.",
+    "image": "https://cards.scryfall.io/normal/front/8/a/8ae6fc26-cfad-4da8-98d9-49c27c24d293.jpg?1783909085",
+    "art": "https://cards.scryfall.io/art_crop/front/8/a/8ae6fc26-cfad-4da8-98d9-49c27c24d293.jpg?1783909085",
+    "source": "https://scryfall.com/card/fdn/141/giada-font-of-hope?utm_source=api",
+    "thumbnail": "assets/decks/giada-font-of-hope.jpg"
+  },
+  "Snakeskin Veil": {
+    "mana": "{G}",
+    "cmc": 1,
+    "type": "Instant",
+    "colors": [
+      "G"
+    ],
+    "text": "Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)",
+    "image": "https://cards.scryfall.io/normal/front/6/c/6cc4c21d-9bdc-4490-9203-17f51db0ddd1.jpg?1783909056",
+    "art": "https://cards.scryfall.io/art_crop/front/6/c/6cc4c21d-9bdc-4490-9203-17f51db0ddd1.jpg?1783909056",
+    "source": "https://scryfall.com/card/fdn/233/snakeskin-veil?utm_source=api",
+    "thumbnail": "assets/cards/snakeskin-veil.jpg"
+  },
+  "Prideful Parent": {
+    "mana": "{2}{W}",
+    "cmc": 3,
+    "type": "Creature — Cat",
+    "colors": [
+      "W"
+    ],
+    "text": "Vigilance (Attacking doesn't cause this creature to tap.)\nWhen this creature enters, create a 1/1 white Cat creature token.",
+    "image": "https://cards.scryfall.io/normal/front/b/7/b742117a-8a72-43b9-b05d-274829d138a2.jpg?1783909124",
+    "art": "https://cards.scryfall.io/art_crop/front/b/7/b742117a-8a72-43b9-b05d-274829d138a2.jpg?1783909124",
+    "source": "https://scryfall.com/card/fdn/21/prideful-parent?utm_source=api",
+    "thumbnail": "assets/cards/prideful-parent.jpg"
+  },
+  "Fiendish Panda": {
+    "mana": "{2}{W}{B}",
+    "cmc": 4,
+    "type": "Creature — Bear Demon",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "text": "Whenever you gain life, put a +1/+1 counter on this creature.\nWhen this creature dies, return another target non-Bear creature card with mana value less than or equal to this creature's power from your graveyard to the battlefield.",
+    "image": "https://cards.scryfall.io/normal/front/4/e/4e434d74-cad0-45f5-bc8d-f34aa5e1d879.jpg?1783909093",
+    "art": "https://cards.scryfall.io/art_crop/front/4/e/4e434d74-cad0-45f5-bc8d-f34aa5e1d879.jpg?1783909093",
+    "source": "https://scryfall.com/card/fdn/120/fiendish-panda?utm_source=api",
+    "thumbnail": "assets/cards/fiendish-panda.jpg"
+  },
+  "Bigfin Bouncer": {
+    "mana": "{3}{U}",
+    "cmc": 4,
+    "type": "Creature — Shark Pirate",
+    "colors": [
+      "U"
+    ],
+    "text": "When this creature enters, return target creature an opponent controls to its owner's hand.",
+    "image": "https://cards.scryfall.io/normal/front/9/b/9b1d5b76-b07e-45c6-800d-4cfce085164f.jpg?1783909121",
+    "art": "https://cards.scryfall.io/art_crop/front/9/b/9b1d5b76-b07e-45c6-800d-4cfce085164f.jpg?1783909121",
+    "source": "https://scryfall.com/card/fdn/31/bigfin-bouncer?utm_source=api",
+    "thumbnail": "assets/cards/bigfin-bouncer.jpg"
+  },
+  "Serra Angel": {
+    "mana": "{3}{W}{W}",
+    "cmc": 5,
+    "type": "Creature — Angel",
+    "colors": [
+      "W"
+    ],
+    "text": "Flying\nVigilance (Attacking doesn't cause this creature to tap.)",
+    "image": "https://cards.scryfall.io/normal/front/3/c/3cee9303-9d65-45a2-93d4-ef4aba59141b.jpg?1783909083",
+    "art": "https://cards.scryfall.io/art_crop/front/3/c/3cee9303-9d65-45a2-93d4-ef4aba59141b.jpg?1783909083",
+    "source": "https://scryfall.com/card/fdn/147/serra-angel?utm_source=api",
+    "thumbnail": "assets/cards/serra-angel.jpg"
+  },
+  "High-Society Hunter": {
+    "mana": "{3}{B}{B}",
+    "cmc": 5,
+    "type": "Creature — Vampire Noble",
+    "colors": [
+      "B"
+    ],
+    "text": "Flying\nWhenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature.\nWhenever another nontoken creature dies, draw a card.",
+    "image": "https://cards.scryfall.io/normal/front/5/1/51da4a4b-ea12-4169-a7cf-eb4427f13e84.jpg?1783909112",
+    "art": "https://cards.scryfall.io/art_crop/front/5/1/51da4a4b-ea12-4169-a7cf-eb4427f13e84.jpg?1783909112",
+    "source": "https://scryfall.com/card/fdn/61/high-society-hunter?utm_source=api",
+    "thumbnail": "assets/decks/high-society-hunter.jpg"
+  },
+  "Archmage of Runes": {
+    "mana": "{3}{U}{U}",
+    "cmc": 5,
+    "type": "Creature — Giant Wizard",
+    "colors": [
+      "U"
+    ],
+    "text": "Instant and sorcery spells you cast cost {1} less to cast.\nWhenever you cast an instant or sorcery spell, draw a card.",
+    "image": "https://cards.scryfall.io/normal/front/3/3/334b5018-2da9-49f1-9d09-83d312ecfb02.jpg?1783909121",
+    "art": "https://cards.scryfall.io/art_crop/front/3/3/334b5018-2da9-49f1-9d09-83d312ecfb02.jpg?1783909121",
+    "source": "https://scryfall.com/card/fdn/30/archmage-of-runes?utm_source=api",
+    "thumbnail": "assets/cards/archmage-of-runes.jpg"
+  },
+  "Eaten Alive": {
+    "mana": "{B}",
+    "cmc": 1,
+    "type": "Sorcery",
+    "colors": [
+      "B"
+    ],
+    "text": "As an additional cost to cast this spell, sacrifice a creature or pay {3}{B}.\nExile target creature or planeswalker.",
+    "image": "https://cards.scryfall.io/normal/front/1/c/1c4f7b20-b2a8-498c-8c36-dc296863b0b9.jpg?1783909077",
+    "art": "https://cards.scryfall.io/art_crop/front/1/c/1c4f7b20-b2a8-498c-8c36-dc296863b0b9.jpg?1783909077",
+    "source": "https://scryfall.com/card/fdn/172/eaten-alive?utm_source=api",
+    "thumbnail": "assets/cards/eaten-alive.jpg"
+  },
+  "Refute": {
+    "mana": "{1}{U}{U}",
+    "cmc": 3,
+    "type": "Instant",
+    "colors": [
+      "U"
+    ],
+    "text": "Counter target spell. Draw a card, then discard a card.",
+    "image": "https://cards.scryfall.io/normal/front/3/8/38806934-dd9c-4ad4-a59c-a16dce03a14a.jpg?1783909115",
+    "art": "https://cards.scryfall.io/art_crop/front/3/8/38806934-dd9c-4ad4-a59c-a16dce03a14a.jpg?1783909115",
+    "source": "https://scryfall.com/card/fdn/48/refute?utm_source=api",
+    "thumbnail": "assets/cards/refute.jpg"
+  },
+  "Island": {
+    "mana": "",
+    "cmc": 0,
+    "type": "Basic Land — Island",
+    "colors": [],
+    "text": "({T}: Add {U}.)",
+    "image": "https://cards.scryfall.io/normal/front/1/7/17e2b637-72b1-4457-aaba-66d51107be4c.jpg?1783909041",
+    "art": "https://cards.scryfall.io/art_crop/front/1/7/17e2b637-72b1-4457-aaba-66d51107be4c.jpg?1783909041",
+    "source": "https://scryfall.com/card/fdn/274/island?utm_source=api",
+    "thumbnail": "assets/decks/island.jpg"
+  },
+  "Healer's Hawk": {
+    "mana": "{W}",
+    "cmc": 1,
+    "type": "Creature — Bird",
+    "colors": [
+      "W"
+    ],
+    "text": "Flying\nLifelink (Damage dealt by this creature also causes you to gain that much life.)",
+    "image": "https://cards.scryfall.io/normal/front/c/c/cc8e4563-04bb-46b5-835e-64ba11c0e972.jpg?1783909084",
+    "art": "https://cards.scryfall.io/art_crop/front/c/c/cc8e4563-04bb-46b5-835e-64ba11c0e972.jpg?1783909084",
+    "source": "https://scryfall.com/card/fdn/142/healers-hawk?utm_source=api",
+    "thumbnail": "assets/decks/healer-s-hawk.jpg"
+  },
+  "Drake Hatcher": {
+    "mana": "{1}{U}",
+    "cmc": 2,
+    "type": "Creature — Human Wizard",
+    "colors": [
+      "U"
+    ],
+    "text": "Vigilance, prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever this creature deals combat damage to a player, put that many incubation counters on it.\nRemove three incubation counters from this creature: Create a 2/2 blue Drake creature token with flying.",
+    "image": "https://cards.scryfall.io/normal/front/b/c/bcaf4196-6bf3-47fa-b5c7-0e77f45cf820.jpg?1783909119",
+    "art": "https://cards.scryfall.io/art_crop/front/b/c/bcaf4196-6bf3-47fa-b5c7-0e77f45cf820.jpg?1783909119",
+    "source": "https://scryfall.com/card/fdn/35/drake-hatcher?utm_source=api",
+    "thumbnail": "assets/decks/drake-hatcher.jpg"
+  },
+  "Fanatical Firebrand": {
+    "mana": "{R}",
+    "cmc": 1,
+    "type": "Creature — Goblin Pirate",
+    "colors": [
+      "R"
+    ],
+    "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)\n{T}, Sacrifice this creature: It deals 1 damage to any target.",
+    "image": "https://cards.scryfall.io/normal/front/d/1/d1296316-7781-4e98-95e6-7020648be6a5.jpg?1783909067",
+    "art": "https://cards.scryfall.io/art_crop/front/d/1/d1296316-7781-4e98-95e6-7020648be6a5.jpg?1783909067",
+    "source": "https://scryfall.com/card/fdn/195/fanatical-firebrand?utm_source=api",
+    "thumbnail": "assets/cards/fanatical-firebrand.jpg"
+  },
+  "Resolute Reinforcements": {
+    "mana": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature — Human Soldier",
+    "colors": [
+      "W"
+    ],
+    "text": "Flash (You may cast this spell any time you could cast an instant.)\nWhen this creature enters, create a 1/1 white Soldier creature token.",
+    "image": "https://cards.scryfall.io/normal/front/9/4/940f3989-77cc-49a9-92e0-095a75d80f0f.jpg?1783909083",
+    "art": "https://cards.scryfall.io/art_crop/front/9/4/940f3989-77cc-49a9-92e0-095a75d80f0f.jpg?1783909083",
+    "source": "https://scryfall.com/card/fdn/145/resolute-reinforcements?utm_source=api",
+    "thumbnail": "assets/cards/resolute-reinforcements.jpg"
+  },
+  "Mountain": {
+    "mana": "",
+    "cmc": 0,
+    "type": "Basic Land — Mountain",
+    "colors": [],
+    "text": "({T}: Add {R}.)",
+    "image": "https://cards.scryfall.io/normal/front/2/7/279df7e2-2a3b-464a-a7df-e91da28e3a8c.jpg?1783909041",
+    "art": "https://cards.scryfall.io/art_crop/front/2/7/279df7e2-2a3b-464a-a7df-e91da28e3a8c.jpg?1783909041",
+    "source": "https://scryfall.com/card/fdn/278/mountain?utm_source=api",
+    "thumbnail": "assets/decks/mountain.jpg"
+  },
+  "Swiftblade Vindicator": {
+    "mana": "{R}{W}",
+    "cmc": 2,
+    "type": "Creature — Human Soldier",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "text": "Double strike (This creature deals both first-strike and regular combat damage.)\nVigilance (Attacking doesn't cause this creature to tap.)\nTrample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
+    "image": "https://cards.scryfall.io/normal/front/f/9/f94618ec-000c-4371-b925-05ff82bfe221.jpg?1783909051",
+    "art": "https://cards.scryfall.io/art_crop/front/f/9/f94618ec-000c-4371-b925-05ff82bfe221.jpg?1783909051",
+    "source": "https://scryfall.com/card/fdn/246/swiftblade-vindicator?utm_source=api",
+    "thumbnail": "assets/cards/swiftblade-vindicator.jpg"
+  },
+  "Infestation Sage": {
+    "mana": "{B}",
+    "cmc": 1,
+    "type": "Creature — Elf Warlock",
+    "colors": [
+      "B"
+    ],
+    "text": "When this creature dies, create a 1/1 black and green Insect creature token with flying.",
+    "image": "https://cards.scryfall.io/normal/front/d/4/d40c73de-7a5f-46f2-a70b-449bc8ecfe24.jpg?1783909111",
+    "art": "https://cards.scryfall.io/art_crop/front/d/4/d40c73de-7a5f-46f2-a70b-449bc8ecfe24.jpg?1783909111",
+    "source": "https://scryfall.com/card/fdn/64/infestation-sage?utm_source=api",
+    "thumbnail": "assets/cards/infestation-sage.jpg"
+  },
+  "Elfsworn Giant": {
+    "mana": "{3}{G}{G}",
+    "cmc": 5,
+    "type": "Creature — Giant",
+    "colors": [
+      "G"
+    ],
+    "text": "Reach (This creature can block creatures with flying.)\nLandfall — Whenever a land you control enters, create a 1/1 green Elf Warrior creature token.",
+    "image": "https://cards.scryfall.io/normal/front/5/1/5128a5be-ffa6-4998-8488-872d80b24cb2.jpg?1783909097",
+    "art": "https://cards.scryfall.io/art_crop/front/5/1/5128a5be-ffa6-4998-8488-872d80b24cb2.jpg?1783909097",
+    "source": "https://scryfall.com/card/fdn/103/elfsworn-giant?utm_source=api",
+    "thumbnail": "assets/cards/elfsworn-giant.jpg"
+  },
+  "Strix Lookout": {
+    "mana": "{1}{U}",
+    "cmc": 2,
+    "type": "Creature — Bird",
+    "colors": [
+      "U"
+    ],
+    "text": "Flying, vigilance (Attacking doesn't cause this creature to tap.)\n{1}{U}, {T}: Draw a card, then discard a card.",
+    "image": "https://cards.scryfall.io/normal/front/f/b/fbd2422e-8e84-4c39-af29-3b4d38baee63.jpg?1783909115",
+    "art": "https://cards.scryfall.io/art_crop/front/f/b/fbd2422e-8e84-4c39-af29-3b4d38baee63.jpg?1783909115",
+    "source": "https://scryfall.com/card/fdn/52/strix-lookout?utm_source=api",
+    "thumbnail": "assets/cards/strix-lookout.jpg"
+  },
+  "Heroic Reinforcements": {
+    "mana": "{2}{R}{W}",
+    "cmc": 4,
+    "type": "Sorcery",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "text": "Create two 1/1 white Soldier creature tokens. Until end of turn, creatures you control get +1/+1 and gain haste. (They can attack and {T} this turn.)",
+    "image": "https://cards.scryfall.io/normal/front/6/a/6a05e8d5-c2ad-489a-888d-22622886b620.jpg?1783909052",
+    "art": "https://cards.scryfall.io/art_crop/front/6/a/6a05e8d5-c2ad-489a-888d-22622886b620.jpg?1783909052",
+    "source": "https://scryfall.com/card/fdn/241/heroic-reinforcements?utm_source=api",
+    "thumbnail": "assets/cards/heroic-reinforcements.jpg",
+    "hero": "assets/decks/hero-heroic-reinforcements.jpg"
+  },
+  "High Fae Trickster": {
+    "mana": "{3}{U}",
+    "cmc": 4,
+    "type": "Creature — Faerie Wizard",
+    "colors": [
+      "U"
+    ],
+    "text": "Flash (You may cast this spell any time you could cast an instant.)\nFlying\nYou may cast spells as though they had flash.",
+    "image": "https://cards.scryfall.io/normal/front/7/f/7f1b93ea-1ec1-4010-9343-765742f5088b.jpg?1783909118",
+    "art": "https://cards.scryfall.io/art_crop/front/7/f/7f1b93ea-1ec1-4010-9343-765742f5088b.jpg?1783909118",
+    "source": "https://scryfall.com/card/fdn/40/high-fae-trickster?utm_source=api",
+    "thumbnail": "assets/cards/high-fae-trickster.jpg"
+  },
+  "Opt": {
+    "mana": "{U}",
+    "cmc": 1,
+    "type": "Instant",
+    "colors": [
+      "U"
+    ],
+    "text": "Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\nDraw a card.",
+    "image": "https://cards.scryfall.io/normal/front/b/b/bbc99a51-1501-4525-a3cc-f48249b64bed.jpg?1783907102",
+    "art": "https://cards.scryfall.io/art_crop/front/b/b/bbc99a51-1501-4525-a3cc-f48249b64bed.jpg?1783907102",
+    "source": "https://scryfall.com/card/tdc/158/opt?utm_source=api",
+    "thumbnail": "assets/cards/opt.jpg"
+  },
+  "Bushwhack": {
+    "mana": "{G}",
+    "cmc": 1,
+    "type": "Sorcery",
+    "colors": [
+      "G"
+    ],
+    "text": "Choose one —\n• Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n• Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)",
+    "image": "https://cards.scryfall.io/normal/front/0/3/03ebdb36-55e0-49dd-a514-785fbeb4ae19.jpg?1783909061",
+    "art": "https://cards.scryfall.io/art_crop/front/0/3/03ebdb36-55e0-49dd-a514-785fbeb4ae19.jpg?1783909061",
+    "source": "https://scryfall.com/card/fdn/215/bushwhack?utm_source=api",
+    "thumbnail": "assets/cards/bushwhack.jpg"
+  },
+  "Swamp": {
+    "mana": "",
+    "cmc": 0,
+    "type": "Basic Land — Swamp",
+    "colors": [],
+    "text": "({T}: Add {B}.)",
+    "image": "https://cards.scryfall.io/normal/front/3/1/319bc1f0-ee42-44e5-b08b-735613ded2ba.jpg?1783909041",
+    "art": "https://cards.scryfall.io/art_crop/front/3/1/319bc1f0-ee42-44e5-b08b-735613ded2ba.jpg?1783909041",
+    "source": "https://scryfall.com/card/fdn/276/swamp?utm_source=api",
+    "thumbnail": "assets/decks/swamp.jpg"
+  },
+  "Ajani's Pridemate": {
+    "mana": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature — Cat Soldier",
+    "colors": [
+      "W"
+    ],
+    "text": "Whenever you gain life, put a +1/+1 counter on this creature.",
+    "image": "https://cards.scryfall.io/normal/front/2/2/222c1a68-e34c-4103-b1be-17d4ceaef6ce.jpg?1783909088",
+    "art": "https://cards.scryfall.io/art_crop/front/2/2/222c1a68-e34c-4103-b1be-17d4ceaef6ce.jpg?1783909088",
+    "source": "https://scryfall.com/card/fdn/135/ajanis-pridemate?utm_source=api",
+    "thumbnail": "assets/cards/ajani-s-pridemate.jpg"
+  },
+  "Dazzling Angel": {
+    "mana": "{2}{W}",
+    "cmc": 3,
+    "type": "Creature — Angel",
+    "colors": [
+      "W"
+    ],
+    "text": "Flying\nWhenever another creature you control enters, you gain 1 life.",
+    "image": "https://cards.scryfall.io/normal/front/0/2/027dc444-e544-4693-8653-3dcdda530162.jpg?1783909128",
+    "art": "https://cards.scryfall.io/art_crop/front/0/2/027dc444-e544-4693-8653-3dcdda530162.jpg?1783909128",
+    "source": "https://scryfall.com/card/fdn/9/dazzling-angel?utm_source=api",
+    "thumbnail": "assets/cards/dazzling-angel.jpg"
+  },
+  "Vampire Nighthawk": {
+    "mana": "{1}{B}{B}",
+    "cmc": 3,
+    "type": "Creature — Vampire Shaman",
+    "colors": [
+      "B"
+    ],
+    "text": "Flying\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nLifelink (Damage dealt by this creature also causes you to gain that much life.)",
+    "image": "https://cards.scryfall.io/normal/front/0/a/0a1934ab-3171-4fc6-8033-ad998899ba73.jpg?1783909071",
+    "art": "https://cards.scryfall.io/art_crop/front/0/a/0a1934ab-3171-4fc6-8033-ad998899ba73.jpg?1783909071",
+    "source": "https://scryfall.com/card/fdn/186/vampire-nighthawk?utm_source=api",
+    "thumbnail": "assets/cards/vampire-nighthawk.jpg"
+  },
+  "Sun-Blessed Healer": {
+    "mana": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature — Human Cleric",
+    "colors": [
+      "W"
+    ],
+    "text": "Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)\nLifelink (Damage dealt by this creature also causes you to gain that much life.)\nWhen this creature enters, if it was kicked, return target nonland permanent card with mana value 2 or less from your graveyard to the battlefield.",
+    "image": "https://cards.scryfall.io/normal/front/3/2/323d029e-9a88-4188-b3a4-38ef32cffc9f.jpg?1783909123",
+    "art": "https://cards.scryfall.io/art_crop/front/3/2/323d029e-9a88-4188-b3a4-38ef32cffc9f.jpg?1783909123",
+    "source": "https://scryfall.com/card/fdn/25/sun-blessed-healer?utm_source=api",
+    "thumbnail": "assets/cards/sun-blessed-healer.jpg"
+  },
+  "Grappling Kraken": {
+    "mana": "{4}{U}{U}",
+    "cmc": 6,
+    "type": "Creature — Kraken",
+    "colors": [
+      "U"
+    ],
+    "text": "Landfall — Whenever a land you control enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+    "image": "https://cards.scryfall.io/normal/front/d/1/d1f5cab3-3fc0-448d-8252-cd55abf5b596.jpg?1783909118",
+    "art": "https://cards.scryfall.io/art_crop/front/d/1/d1f5cab3-3fc0-448d-8252-cd55abf5b596.jpg?1783909118",
+    "source": "https://scryfall.com/card/fdn/39/grappling-kraken?utm_source=api",
+    "thumbnail": "assets/decks/grappling-kraken.jpg"
+  },
+  "Llanowar Elves": {
+    "mana": "{G}",
+    "cmc": 1,
+    "type": "Creature — Elf Druid",
+    "colors": [
+      "G"
+    ],
+    "text": "{T}: Add {G}.",
+    "image": "https://cards.scryfall.io/normal/front/6/a/6a0b230b-d391-4998-a3f7-7b158a0ec2cd.jpg?1783909057",
+    "art": "https://cards.scryfall.io/art_crop/front/6/a/6a0b230b-d391-4998-a3f7-7b158a0ec2cd.jpg?1783909057",
+    "source": "https://scryfall.com/card/fdn/227/llanowar-elves?utm_source=api",
+    "thumbnail": "assets/cards/llanowar-elves.jpg"
+  },
+  "Mossborn Hydra": {
+    "mana": "{2}{G}",
+    "cmc": 3,
+    "type": "Creature — Elemental Hydra",
+    "colors": [
+      "G"
+    ],
+    "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nThis creature enters with a +1/+1 counter on it.\nLandfall — Whenever a land you control enters, double the number of +1/+1 counters on this creature.",
+    "image": "https://cards.scryfall.io/normal/front/7/0/7054a0d7-396f-40b4-ab24-db591c3b08f0.jpg?1783909097",
+    "art": "https://cards.scryfall.io/art_crop/front/7/0/7054a0d7-396f-40b4-ab24-db591c3b08f0.jpg?1783909097",
+    "source": "https://scryfall.com/card/fdn/107/mossborn-hydra?utm_source=api",
+    "thumbnail": "assets/cards/mossborn-hydra.jpg"
+  },
+  "Wardens of the Cycle": {
+    "mana": "{1}{B}{G}{G}",
+    "cmc": 4,
+    "type": "Creature — Elf Warlock",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "text": "Morbid — At the beginning of your end step, if a creature died this turn, choose one —\n• You gain 2 life.\n• You draw a card and you lose 1 life.",
+    "image": "https://cards.scryfall.io/normal/front/8/3/83ea9b2c-5723-4eff-88ac-6669975939e3.jpg?1783909089",
+    "art": "https://cards.scryfall.io/art_crop/front/8/3/83ea9b2c-5723-4eff-88ac-6669975939e3.jpg?1783909089",
+    "source": "https://scryfall.com/card/fdn/125/wardens-of-the-cycle?utm_source=api",
+    "thumbnail": "assets/cards/wardens-of-the-cycle.jpg",
+    "hero": "assets/decks/hero-wardens-of-the-cycle.jpg"
+  },
+  "Think Twice": {
+    "mana": "{1}{U}",
+    "cmc": 2,
+    "type": "Instant",
+    "colors": [
+      "U"
+    ],
+    "text": "Draw a card.\nFlashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+    "image": "https://cards.scryfall.io/normal/front/d/8/d88faaa1-eb41-40f7-991c-5c06e1138f3d.jpg?1783909078",
+    "art": "https://cards.scryfall.io/art_crop/front/d/8/d88faaa1-eb41-40f7-991c-5c06e1138f3d.jpg?1783909078",
+    "source": "https://scryfall.com/card/fdn/165/think-twice?utm_source=api",
+    "thumbnail": "assets/cards/think-twice.jpg"
+  },
+  "Swiftwater Cliffs": {
+    "mana": "",
+    "cmc": 0,
+    "type": "Land",
+    "colors": [],
+    "text": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {U} or {R}.",
+    "image": "https://cards.scryfall.io/normal/front/f/b/fb88667d-7088-4889-960f-317486ebe856.jpg?1783909044",
+    "art": "https://cards.scryfall.io/art_crop/front/f/b/fb88667d-7088-4889-960f-317486ebe856.jpg?1783909044",
+    "source": "https://scryfall.com/card/fdn/268/swiftwater-cliffs?utm_source=api",
+    "thumbnail": "assets/cards/swiftwater-cliffs.jpg"
+  },
+  "Apothecary Stomper": {
+    "mana": "{4}{G}{G}",
+    "cmc": 6,
+    "type": "Creature — Elephant",
+    "colors": [
+      "G"
+    ],
+    "text": "Vigilance (Attacking doesn't cause this creature to tap.)\nWhen this creature enters, choose one —\n• Put two +1/+1 counters on target creature you control.\n• You gain 4 life.",
+    "image": "https://cards.scryfall.io/normal/front/6/8/680b7b0c-0e1b-46ce-9917-9fc6e05aa148.jpg?1783909099",
+    "art": "https://cards.scryfall.io/art_crop/front/6/8/680b7b0c-0e1b-46ce-9917-9fc6e05aa148.jpg?1783909099",
+    "source": "https://scryfall.com/card/fdn/99/apothecary-stomper?utm_source=api",
+    "thumbnail": "assets/cards/apothecary-stomper.jpg"
+  },
+  "Tolarian Terror": {
+    "mana": "{6}{U}",
+    "cmc": 7,
+    "type": "Creature — Serpent",
+    "colors": [
+      "U"
+    ],
+    "text": "This spell costs {1} less to cast for each instant and sorcery card in your graveyard.\nWard {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)",
+    "image": "https://cards.scryfall.io/normal/front/2/5/2569d4f3-55ed-4f99-9592-34c7df0aab72.jpg?1783909076",
+    "art": "https://cards.scryfall.io/art_crop/front/2/5/2569d4f3-55ed-4f99-9592-34c7df0aab72.jpg?1783909076",
+    "source": "https://scryfall.com/card/fdn/167/tolarian-terror?utm_source=api",
+    "thumbnail": "assets/cards/tolarian-terror.jpg"
+  },
+  "Grow from the Ashes": {
+    "mana": "{2}{G}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "colors": [
+      "G"
+    ],
+    "text": "Kicker {2} (You may pay an additional {2} as you cast this spell.)\nSearch your library for a basic land card, put it onto the battlefield, then shuffle. If this spell was kicked, instead search your library for two basic land cards, put them onto the battlefield, then shuffle.",
+    "image": "https://cards.scryfall.io/normal/front/4/2/42525f8a-aee7-4811-8f05-471b559c2c4a.jpg?1783909058",
+    "art": "https://cards.scryfall.io/art_crop/front/4/2/42525f8a-aee7-4811-8f05-471b559c2c4a.jpg?1783909058",
+    "source": "https://scryfall.com/card/fdn/225/grow-from-the-ashes?utm_source=api",
+    "thumbnail": "assets/cards/grow-from-the-ashes.jpg"
+  },
+  "Dauntless Veteran": {
+    "mana": "{1}{W}{W}",
+    "cmc": 3,
+    "type": "Creature — Human Soldier",
+    "colors": [
+      "W"
+    ],
+    "text": "Whenever this creature attacks, creatures you control get +1/+1 until end of turn.",
+    "image": "https://cards.scryfall.io/normal/front/7/a/7a136f26-ac66-407f-b389-357222d2c4a2.jpg?1783909128",
+    "art": "https://cards.scryfall.io/art_crop/front/7/a/7a136f26-ac66-407f-b389-357222d2c4a2.jpg?1783909128",
+    "source": "https://scryfall.com/card/fdn/8/dauntless-veteran?utm_source=api",
+    "thumbnail": "assets/cards/dauntless-veteran.jpg"
+  },
+  "Firebrand Archer": {
+    "mana": "{1}{R}",
+    "cmc": 2,
+    "type": "Creature — Human Archer",
+    "colors": [
+      "R"
+    ],
+    "text": "Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent.",
+    "image": "https://cards.scryfall.io/normal/front/f/e/fe0312f1-4c98-4b7f-8a34-0059ea80edef.jpg?1783909067",
+    "art": "https://cards.scryfall.io/art_crop/front/f/e/fe0312f1-4c98-4b7f-8a34-0059ea80edef.jpg?1783909067",
+    "source": "https://scryfall.com/card/fdn/196/firebrand-archer?utm_source=api",
+    "thumbnail": "assets/cards/firebrand-archer.jpg"
+  },
+  "Elvish Regrower": {
+    "mana": "{2}{G}{G}",
+    "cmc": 4,
+    "type": "Creature — Elf Druid",
+    "colors": [
+      "G"
+    ],
+    "text": "When this creature enters, return target permanent card from your graveyard to your hand.",
+    "image": "https://cards.scryfall.io/normal/front/2/6/2694e3cd-26ed-4a10-ae55-fb84d7800253.jpg?1783909097",
+    "art": "https://cards.scryfall.io/art_crop/front/2/6/2694e3cd-26ed-4a10-ae55-fb84d7800253.jpg?1783909097",
+    "source": "https://scryfall.com/card/fdn/104/elvish-regrower?utm_source=api",
+    "thumbnail": "assets/cards/elvish-regrower.jpg"
+  },
+  "Needletooth Pack": {
+    "mana": "{3}{G}{G}",
+    "cmc": 5,
+    "type": "Creature — Dinosaur",
+    "colors": [
+      "G"
+    ],
+    "text": "Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control.",
+    "image": "https://cards.scryfall.io/normal/front/9/9/993c1679-e02b-44f2-b34e-12fd6b5142e9.jpg?1783909096",
+    "art": "https://cards.scryfall.io/art_crop/front/9/9/993c1679-e02b-44f2-b34e-12fd6b5142e9.jpg?1783909096",
+    "source": "https://scryfall.com/card/fdn/108/needletooth-pack?utm_source=api",
+    "thumbnail": "assets/decks/needletooth-pack.jpg"
+  },
+  "Fleeting Distraction": {
+    "mana": "{U}",
+    "cmc": 1,
+    "type": "Instant",
+    "colors": [
+      "U"
+    ],
+    "text": "Target creature gets -1/-0 until end of turn.\nDraw a card.",
+    "image": "https://cards.scryfall.io/normal/front/c/0/c0b86a7b-4912-43a7-ab89-c3432385baa1.jpg?1783909081",
+    "art": "https://cards.scryfall.io/art_crop/front/c/0/c0b86a7b-4912-43a7-ab89-c3432385baa1.jpg?1783909081",
+    "source": "https://scryfall.com/card/fdn/155/fleeting-distraction?utm_source=api",
+    "thumbnail": "assets/decks/fleeting-distraction.jpg"
+  },
+  "Faebloom Trick": {
+    "mana": "{2}{U}",
+    "cmc": 3,
+    "type": "Instant",
+    "colors": [
+      "U"
+    ],
+    "text": "Create two 1/1 blue Faerie creature tokens with flying. When you do, tap target creature an opponent controls.",
+    "image": "https://cards.scryfall.io/normal/front/0/c/0c3bee8f-f5be-4404-a696-c902637799c3.jpg?1783909118",
+    "art": "https://cards.scryfall.io/art_crop/front/0/c/0c3bee8f-f5be-4404-a696-c902637799c3.jpg?1783909118",
+    "source": "https://scryfall.com/card/fdn/38/faebloom-trick?utm_source=api",
+    "thumbnail": "assets/cards/faebloom-trick.jpg"
+  },
+  "Jungle Hollow": {
+    "mana": "",
+    "cmc": 0,
+    "type": "Land",
+    "colors": [],
+    "text": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {B} or {G}.",
+    "image": "https://cards.scryfall.io/normal/front/d/c/dc758e14-d370-45e4-bbc5-938fb4d21127.jpg?1783909046",
+    "art": "https://cards.scryfall.io/art_crop/front/d/c/dc758e14-d370-45e4-bbc5-938fb4d21127.jpg?1783909046",
+    "source": "https://scryfall.com/card/fdn/263/jungle-hollow?utm_source=api",
+    "thumbnail": "assets/cards/jungle-hollow.jpg"
+  },
+  "Scoured Barrens": {
+    "mana": "",
+    "cmc": 0,
+    "type": "Land",
+    "colors": [],
+    "text": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {W} or {B}.",
+    "image": "https://cards.scryfall.io/normal/front/2/6/2632a4b2-9ca6-4b67-9a99-14f52ad3dc41.jpg?1783909044",
+    "art": "https://cards.scryfall.io/art_crop/front/2/6/2632a4b2-9ca6-4b67-9a99-14f52ad3dc41.jpg?1783909044",
+    "source": "https://scryfall.com/card/fdn/266/scoured-barrens?utm_source=api",
+    "thumbnail": "assets/cards/scoured-barrens.jpg"
+  },
+  "Arahbo, the First Fang": {
+    "mana": "{2}{W}",
+    "cmc": 3,
+    "type": "Legendary Creature — Cat Avatar",
+    "colors": [
+      "W"
+    ],
+    "text": "Other Cats you control get +1/+1.\nWhenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token.",
+    "image": "https://cards.scryfall.io/normal/front/5/2/524a5d93-26ed-436d-a437-dc9460acce98.jpg?1783909130",
+    "art": "https://cards.scryfall.io/art_crop/front/5/2/524a5d93-26ed-436d-a437-dc9460acce98.jpg?1783909130",
+    "source": "https://scryfall.com/card/fdn/2/arahbo-the-first-fang?utm_source=api",
+    "thumbnail": "assets/cards/arahbo-the-first-fang.jpg"
+  },
+  "Stab": {
+    "mana": "{B}",
+    "cmc": 1,
+    "type": "Instant",
+    "colors": [
+      "B"
+    ],
+    "text": "Target creature gets -2/-2 until end of turn.",
+    "image": "https://cards.scryfall.io/normal/front/6/8/6859a5ba-1c1c-4631-bba8-f9900b827178.jpg?1783909108",
+    "art": "https://cards.scryfall.io/art_crop/front/6/8/6859a5ba-1c1c-4631-bba8-f9900b827178.jpg?1783909108",
+    "source": "https://scryfall.com/card/fdn/71/stab?utm_source=api",
+    "thumbnail": "assets/cards/stab.jpg"
+  },
+  "Spectral Sailor": {
+    "mana": "{U}",
+    "cmc": 1,
+    "type": "Creature — Spirit Pirate",
+    "colors": [
+      "U"
+    ],
+    "text": "Flash (You may cast this spell any time you could cast an instant.)\nFlying\n{3}{U}: Draw a card.",
+    "image": "https://cards.scryfall.io/normal/front/0/3/03a49535-c5f3-4a6f-b333-7ac7bffdc9ae.jpg?1783909078",
+    "art": "https://cards.scryfall.io/art_crop/front/0/3/03a49535-c5f3-4a6f-b333-7ac7bffdc9ae.jpg?1783909078",
+    "source": "https://scryfall.com/card/fdn/164/spectral-sailor?utm_source=api",
+    "thumbnail": "assets/cards/spectral-sailor.jpg"
+  },
+  "Hungry Ghoul": {
+    "mana": "{1}{B}",
+    "cmc": 2,
+    "type": "Creature — Zombie",
+    "colors": [
+      "B"
+    ],
+    "text": "{1}, Sacrifice another creature: Put a +1/+1 counter on this creature.",
+    "image": "https://cards.scryfall.io/normal/front/7/9/790f9433-7565-4f7f-88e8-8af762ea0296.jpg?1783909111",
+    "art": "https://cards.scryfall.io/art_crop/front/7/9/790f9433-7565-4f7f-88e8-8af762ea0296.jpg?1783909111",
+    "source": "https://scryfall.com/card/fdn/62/hungry-ghoul?utm_source=api",
+    "thumbnail": "assets/decks/hungry-ghoul.jpg"
+  },
+  "Savannah Lions": {
+    "mana": "{W}",
+    "cmc": 1,
+    "type": "Creature — Cat",
+    "colors": [
+      "W"
+    ],
+    "text": "",
+    "image": "https://cards.scryfall.io/normal/front/9/c/9c9ac1bc-cdf3-4fa6-8319-a7ea164e9e47.jpg?1783909083",
+    "art": "https://cards.scryfall.io/art_crop/front/9/c/9c9ac1bc-cdf3-4fa6-8319-a7ea164e9e47.jpg?1783909083",
+    "source": "https://scryfall.com/card/fdn/146/savannah-lions?utm_source=api",
+    "thumbnail": "assets/cards/savannah-lions.jpg"
+  },
+  "Helpful Hunter": {
+    "mana": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature — Cat",
+    "colors": [
+      "W"
+    ],
+    "text": "When this creature enters, draw a card.",
+    "image": "https://cards.scryfall.io/normal/front/1/b/1b9a0e91-80b5-428f-8f08-931d0631be14.jpg?1783909126",
+    "art": "https://cards.scryfall.io/art_crop/front/1/b/1b9a0e91-80b5-428f-8f08-931d0631be14.jpg?1783909126",
+    "source": "https://scryfall.com/card/fdn/16/helpful-hunter?utm_source=api",
+    "thumbnail": "assets/cards/helpful-hunter.jpg"
+  },
+  "Angel of Finality": {
+    "mana": "{3}{W}",
+    "cmc": 4,
+    "type": "Creature — Angel",
+    "colors": [
+      "W"
+    ],
+    "text": "Flying\nWhen this creature enters, exile target player's graveyard.",
+    "image": "https://cards.scryfall.io/normal/front/b/a/baaabd52-3aa9-4e2f-9369-d4db8b405ba8.jpg?1783909087",
+    "art": "https://cards.scryfall.io/art_crop/front/b/a/baaabd52-3aa9-4e2f-9369-d4db8b405ba8.jpg?1783909087",
+    "source": "https://scryfall.com/card/fdn/136/angel-of-finality?utm_source=api",
+    "thumbnail": "assets/cards/angel-of-finality.jpg"
+  },
+  "Wary Thespian": {
+    "mana": "{1}{G}",
+    "cmc": 2,
+    "type": "Creature — Cat Druid",
+    "colors": [
+      "G"
+    ],
+    "text": "When this creature enters or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+    "image": "https://cards.scryfall.io/normal/front/a/3/a3d62d04-0974-4cb5-9a35-5e996c6456e2.jpg?1783909054",
+    "art": "https://cards.scryfall.io/art_crop/front/a/3/a3d62d04-0974-4cb5-9a35-5e996c6456e2.jpg?1783909054",
+    "source": "https://scryfall.com/card/fdn/235/wary-thespian?utm_source=api",
+    "thumbnail": "assets/cards/wary-thespian.jpg"
+  },
+  "Gnarlid Colony": {
+    "mana": "{1}{G}",
+    "cmc": 2,
+    "type": "Creature — Beast",
+    "colors": [
+      "G"
+    ],
+    "text": "Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)\nIf this creature was kicked, it enters with two +1/+1 counters on it.\nEach creature you control with a +1/+1 counter on it has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
+    "image": "https://cards.scryfall.io/normal/front/4/7/47565d10-96bf-4fb0-820f-f20a44a76b6f.jpg?1783909061",
+    "art": "https://cards.scryfall.io/art_crop/front/4/7/47565d10-96bf-4fb0-820f-f20a44a76b6f.jpg?1783909061",
+    "source": "https://scryfall.com/card/fdn/224/gnarlid-colony?utm_source=api",
+    "thumbnail": "assets/decks/gnarlid-colony.jpg"
+  },
+  "Thornwood Falls": {
+    "mana": "",
+    "cmc": 0,
+    "type": "Land",
+    "colors": [],
+    "text": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {G} or {U}.",
+    "image": "https://cards.scryfall.io/normal/front/4/2/42799f51-0f8c-444b-974e-dae281a5c697.jpg?1783909043",
+    "art": "https://cards.scryfall.io/art_crop/front/4/2/42799f51-0f8c-444b-974e-dae281a5c697.jpg?1783909043",
+    "source": "https://scryfall.com/card/fdn/269/thornwood-falls?utm_source=api",
+    "thumbnail": "assets/cards/thornwood-falls.jpg"
+  },
+  "Spinner of Souls": {
+    "mana": "{2}{G}",
+    "cmc": 3,
+    "type": "Creature — Spider Spirit",
+    "colors": [
+      "G"
+    ],
+    "text": "Reach\nWhenever another nontoken creature you control dies, you may reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order.",
+    "image": "https://cards.scryfall.io/normal/front/f/5/f50a8dec-b079-4192-9098-6cdc1026c693.jpg?1783909094",
+    "art": "https://cards.scryfall.io/art_crop/front/f/5/f50a8dec-b079-4192-9098-6cdc1026c693.jpg?1783909094",
+    "source": "https://scryfall.com/card/fdn/112/spinner-of-souls?utm_source=api",
+    "thumbnail": "assets/decks/spinner-of-souls.jpg"
+  },
+  "Plains": {
+    "mana": "",
+    "cmc": 0,
+    "type": "Basic Land — Plains",
+    "colors": [],
+    "text": "({T}: Add {W}.)",
+    "image": "https://cards.scryfall.io/normal/front/4/e/4ef17ed4-a9b5-4b8e-b4cb-2ecb7e5898c3.jpg?1783909043",
+    "art": "https://cards.scryfall.io/art_crop/front/4/e/4ef17ed4-a9b5-4b8e-b4cb-2ecb7e5898c3.jpg?1783909043",
+    "source": "https://scryfall.com/card/fdn/272/plains?utm_source=api",
+    "thumbnail": "assets/decks/plains.jpg"
+  },
+  "Empyrean Eagle": {
+    "mana": "{1}{W}{U}",
+    "cmc": 3,
+    "type": "Creature — Bird Spirit",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "text": "Flying\nOther creatures you control with flying get +1/+1.",
+    "image": "https://cards.scryfall.io/normal/front/5/7/577e99a7-4a55-4314-8f08-2ae0c33b85c7.jpg?1783909053",
+    "art": "https://cards.scryfall.io/art_crop/front/5/7/577e99a7-4a55-4314-8f08-2ae0c33b85c7.jpg?1783909053",
+    "source": "https://scryfall.com/card/fdn/239/empyrean-eagle?utm_source=api",
+    "thumbnail": "assets/cards/empyrean-eagle.jpg",
+    "hero": "assets/decks/hero-empyrean-eagle.jpg"
+  },
+  "Joust Through": {
+    "mana": "{W}",
+    "cmc": 1,
+    "type": "Instant",
+    "colors": [
+      "W"
+    ],
+    "text": "Joust Through deals 3 damage to target attacking or blocking creature. You gain 1 life.",
+    "image": "https://cards.scryfall.io/normal/front/8/4/846adb38-f9bb-4fed-b8ed-36ec7885f989.jpg?1783909125",
+    "art": "https://cards.scryfall.io/art_crop/front/8/4/846adb38-f9bb-4fed-b8ed-36ec7885f989.jpg?1783909125",
+    "source": "https://scryfall.com/card/fdn/19/joust-through?utm_source=api",
+    "thumbnail": "assets/cards/joust-through.jpg"
+  },
+  "Elenda, Saint of Dusk": {
+    "mana": "{2}{W}{B}",
+    "cmc": 4,
+    "type": "Legendary Creature — Vampire Knight",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "text": "Lifelink, hexproof from instants\nAs long as your life total is greater than your starting life total, Elenda gets +1/+1 and has menace. Elenda gets an additional +5/+5 as long as your life total is at least 10 greater than your starting life total.",
+    "image": "https://cards.scryfall.io/normal/front/2/4/24955f5f-093c-4d33-b0c1-911cd36032ce.jpg?1783909092",
+    "art": "https://cards.scryfall.io/art_crop/front/2/4/24955f5f-093c-4d33-b0c1-911cd36032ce.jpg?1783909092",
+    "source": "https://scryfall.com/card/fdn/119/elenda-saint-of-dusk?utm_source=api",
+    "thumbnail": "assets/cards/elenda-saint-of-dusk.jpg",
+    "hero": "assets/decks/hero-elenda-saint-of-dusk.jpg"
+  },
+  "Abrade": {
+    "mana": "{1}{R}",
+    "cmc": 2,
+    "type": "Instant",
+    "colors": [
+      "R"
+    ],
+    "text": "Choose one —\n• Abrade deals 3 damage to target creature.\n• Destroy target artifact.",
+    "image": "https://cards.scryfall.io/normal/front/5/4/548947dc-a5ca-43b5-9531-bcef20fa4ae5.jpg?1783909069",
+    "art": "https://cards.scryfall.io/art_crop/front/5/4/548947dc-a5ca-43b5-9531-bcef20fa4ae5.jpg?1783909069",
+    "source": "https://scryfall.com/card/fdn/188/abrade?utm_source=api",
+    "thumbnail": "assets/cards/abrade.jpg"
+  },
+  "Heartfire Immolator": {
+    "mana": "{1}{R}",
+    "cmc": 2,
+    "type": "Creature — Human Wizard",
+    "colors": [
+      "R"
+    ],
+    "text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\n{R}, Sacrifice this creature: It deals damage equal to its power to target creature or planeswalker.",
+    "image": "https://cards.scryfall.io/normal/front/3/c/3ca38f4d-01f5-4a02-9000-01261a440dbf.jpg?1783909070",
+    "art": "https://cards.scryfall.io/art_crop/front/3/c/3ca38f4d-01f5-4a02-9000-01261a440dbf.jpg?1783909070",
+    "source": "https://scryfall.com/card/fdn/201/heartfire-immolator?utm_source=api",
+    "thumbnail": "assets/cards/heartfire-immolator.jpg"
+  },
+  "Fake Your Own Death": {
+    "mana": "{1}{B}",
+    "cmc": 2,
+    "type": "Instant",
+    "colors": [
+      "B"
+    ],
+    "text": "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control and you create a Treasure token.\" (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+    "image": "https://cards.scryfall.io/normal/front/6/9/693635a6-df50-44c5-9598-0c79b45d4df4.jpg?1783909074",
+    "art": "https://cards.scryfall.io/art_crop/front/6/9/693635a6-df50-44c5-9598-0c79b45d4df4.jpg?1783909074",
+    "source": "https://scryfall.com/card/fdn/174/fake-your-own-death?utm_source=api",
+    "thumbnail": "assets/cards/fake-your-own-death.jpg"
+  },
+  "Tatyova, Benthic Druid": {
+    "mana": "{3}{G}{U}",
+    "cmc": 5,
+    "type": "Legendary Creature — Merfolk Druid",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "text": "Landfall — Whenever a land you control enters, you gain 1 life and draw a card.",
+    "image": "https://cards.scryfall.io/normal/front/e/a/eabc978a-0666-472d-bdc6-d4b29d29eca4.jpg?1783909051",
+    "art": "https://cards.scryfall.io/art_crop/front/e/a/eabc978a-0666-472d-bdc6-d4b29d29eca4.jpg?1783909051",
+    "source": "https://scryfall.com/card/fdn/247/tatyova-benthic-druid?utm_source=api",
+    "thumbnail": "assets/cards/tatyova-benthic-druid.jpg",
+    "hero": "assets/decks/hero-tatyova-benthic-druid.jpg"
+  }
+}

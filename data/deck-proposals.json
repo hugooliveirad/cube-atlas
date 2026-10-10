@@ -1,0 +1,506 @@
+[
+  {
+    "id": "hearth-and-hunger",
+    "title": "Hearth & hunger",
+    "colors": [
+      "W",
+      "B"
+    ],
+    "theme": "Life gain",
+    "summary": "Grow Pridemates, turn small life gains into damage, and let Elenda finish the game.",
+    "plan": "Play a life-gain source before your payoffs. Cat Collector supplies bodies while Blight-Priest drains the opponent.",
+    "watch": "Keep removal for evasive threats; this deck is slower than the token deck.",
+    "cards": [
+      {
+        "name": "Healer's Hawk",
+        "quantity": 2
+      },
+      {
+        "name": "Ajani's Pridemate",
+        "quantity": 2
+      },
+      {
+        "name": "Dazzling Angel",
+        "quantity": 2
+      },
+      {
+        "name": "Marauding Blight-Priest",
+        "quantity": 2
+      },
+      {
+        "name": "Cat Collector",
+        "quantity": 2
+      },
+      {
+        "name": "Fiendish Panda",
+        "quantity": 1
+      },
+      {
+        "name": "Elenda, Saint of Dusk",
+        "quantity": 1
+      },
+      {
+        "name": "Sun-Blessed Healer",
+        "quantity": 2
+      },
+      {
+        "name": "Vampire Nighthawk",
+        "quantity": 2
+      },
+      {
+        "name": "Banishing Light",
+        "quantity": 2
+      },
+      {
+        "name": "Stab",
+        "quantity": 2
+      },
+      {
+        "name": "Bake into a Pie",
+        "quantity": 1
+      },
+      {
+        "name": "Exsanguinate",
+        "quantity": 1
+      },
+      {
+        "name": "Joust Through",
+        "quantity": 1
+      },
+      {
+        "name": "Scoured Barrens",
+        "quantity": 2
+      },
+      {
+        "name": "Plains",
+        "quantity": 8
+      },
+      {
+        "name": "Swamp",
+        "quantity": 7
+      }
+    ]
+  },
+  {
+    "id": "spark-and-ink",
+    "title": "Spark & ink",
+    "colors": [
+      "U",
+      "R"
+    ],
+    "theme": "Spells",
+    "summary": "Turn cheap spells into damage, Faeries, and discounted Tolarian Terrors.",
+    "plan": "Lead with a payoff creature, then hold up interaction. Think Twice can trigger Mystic on either turn; Balmor makes the small creatures threatening.",
+    "watch": "Only twelve creatures: protect a payoff and avoid spending every spell before one arrives.",
+    "cards": [
+      {
+        "name": "Balmor, Battlemage Captain",
+        "quantity": 1
+      },
+      {
+        "name": "Drake Hatcher",
+        "quantity": 2
+      },
+      {
+        "name": "Firebrand Archer",
+        "quantity": 2
+      },
+      {
+        "name": "Heartfire Immolator",
+        "quantity": 2
+      },
+      {
+        "name": "Mischievous Mystic",
+        "quantity": 2
+      },
+      {
+        "name": "Archmage of Runes",
+        "quantity": 1
+      },
+      {
+        "name": "Tolarian Terror",
+        "quantity": 2
+      },
+      {
+        "name": "Burst Lightning",
+        "quantity": 2
+      },
+      {
+        "name": "Think Twice",
+        "quantity": 2
+      },
+      {
+        "name": "Opt",
+        "quantity": 2
+      },
+      {
+        "name": "Abrade",
+        "quantity": 2
+      },
+      {
+        "name": "Thrill of Possibility",
+        "quantity": 1
+      },
+      {
+        "name": "Refute",
+        "quantity": 1
+      },
+      {
+        "name": "Fleeting Distraction",
+        "quantity": 1
+      },
+      {
+        "name": "Swiftwater Cliffs",
+        "quantity": 2
+      },
+      {
+        "name": "Island",
+        "quantity": 8
+      },
+      {
+        "name": "Mountain",
+        "quantity": 7
+      }
+    ]
+  },
+  {
+    "id": "roots-and-remains",
+    "title": "Roots & remains",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "theme": "Sacrifice",
+    "summary": "Trade small creatures for value, then grow threats and draw cards when creatures die.",
+    "plan": "Infestation Sage feeds Hungry Ghoul and Eaten Alive. A death on your turn turns on Wardens and Cackling Prowler; return useful creatures with Regrower or Waltz.",
+    "watch": "Morbid rewards a death during your turn. Avoid sacrificing your entire board just to grow one creature.",
+    "cards": [
+      {
+        "name": "Infestation Sage",
+        "quantity": 2
+      },
+      {
+        "name": "Hungry Ghoul",
+        "quantity": 2
+      },
+      {
+        "name": "Wary Thespian",
+        "quantity": 2
+      },
+      {
+        "name": "Llanowar Elves",
+        "quantity": 2
+      },
+      {
+        "name": "Cackling Prowler",
+        "quantity": 2
+      },
+      {
+        "name": "Spinner of Souls",
+        "quantity": 1
+      },
+      {
+        "name": "Elvish Regrower",
+        "quantity": 1
+      },
+      {
+        "name": "Wardens of the Cycle",
+        "quantity": 2
+      },
+      {
+        "name": "Needletooth Pack",
+        "quantity": 1
+      },
+      {
+        "name": "High-Society Hunter",
+        "quantity": 1
+      },
+      {
+        "name": "Eaten Alive",
+        "quantity": 2
+      },
+      {
+        "name": "Felling Blow",
+        "quantity": 2
+      },
+      {
+        "name": "Macabre Waltz",
+        "quantity": 1
+      },
+      {
+        "name": "Stab",
+        "quantity": 1
+      },
+      {
+        "name": "Fake Your Own Death",
+        "quantity": 1
+      },
+      {
+        "name": "Jungle Hollow",
+        "quantity": 2
+      },
+      {
+        "name": "Forest",
+        "quantity": 8
+      },
+      {
+        "name": "Swamp",
+        "quantity": 7
+      }
+    ]
+  },
+  {
+    "id": "rally-the-small",
+    "title": "Rally the small",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "theme": "Tokens",
+    "summary": "Build a wide board of Cats, Soldiers, and Goblins, then attack with a team-wide boost.",
+    "plan": "Play creatures early. Save Heroic Reinforcements or the pump mode of Goblin Surprise for an attack with several bodies. Arahbo makes your Cats matter.",
+    "watch": "Commit enough creatures to pressure, but keep a refill in hand against sweepers.",
+    "cards": [
+      {
+        "name": "Savannah Lions",
+        "quantity": 2
+      },
+      {
+        "name": "Resolute Reinforcements",
+        "quantity": 2
+      },
+      {
+        "name": "Helpful Hunter",
+        "quantity": 2
+      },
+      {
+        "name": "Prideful Parent",
+        "quantity": 2
+      },
+      {
+        "name": "Fanatical Firebrand",
+        "quantity": 2
+      },
+      {
+        "name": "Swiftblade Vindicator",
+        "quantity": 1
+      },
+      {
+        "name": "Dauntless Veteran",
+        "quantity": 2
+      },
+      {
+        "name": "Heartfire Immolator",
+        "quantity": 2
+      },
+      {
+        "name": "Arahbo, the First Fang",
+        "quantity": 1
+      },
+      {
+        "name": "Heroic Reinforcements",
+        "quantity": 2
+      },
+      {
+        "name": "Goblin Surprise",
+        "quantity": 2
+      },
+      {
+        "name": "Burst Lightning",
+        "quantity": 2
+      },
+      {
+        "name": "Banishing Light",
+        "quantity": 1
+      },
+      {
+        "name": "Wind-Scarred Crag",
+        "quantity": 2
+      },
+      {
+        "name": "Plains",
+        "quantity": 9
+      },
+      {
+        "name": "Mountain",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "a-little-overgrown",
+    "title": "A little overgrown",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "theme": "Ramp & landfall",
+    "summary": "Make extra mana, grow Hydras, and turn land drops into cards with Tatyova.",
+    "plan": "Start with Elves or a two-drop. Grow from the Ashes accelerates your large threats and triggers landfall; Bigfin Bouncer buys time to reach them.",
+    "watch": "Koma is a powerful seven-mana finisher. The early turns are vulnerable, so keep hands with early plays.",
+    "cards": [
+      {
+        "name": "Llanowar Elves",
+        "quantity": 2
+      },
+      {
+        "name": "Gnarlid Colony",
+        "quantity": 2
+      },
+      {
+        "name": "Nessian Hornbeetle",
+        "quantity": 2
+      },
+      {
+        "name": "Mossborn Hydra",
+        "quantity": 2
+      },
+      {
+        "name": "Tatyova, Benthic Druid",
+        "quantity": 1
+      },
+      {
+        "name": "Loot, Exuberant Explorer",
+        "quantity": 1
+      },
+      {
+        "name": "Bigfin Bouncer",
+        "quantity": 2
+      },
+      {
+        "name": "Apothecary Stomper",
+        "quantity": 1
+      },
+      {
+        "name": "Grappling Kraken",
+        "quantity": 1
+      },
+      {
+        "name": "Koma, World-Eater",
+        "quantity": 1
+      },
+      {
+        "name": "Elfsworn Giant",
+        "quantity": 1
+      },
+      {
+        "name": "Grow from the Ashes",
+        "quantity": 2
+      },
+      {
+        "name": "Bite Down",
+        "quantity": 2
+      },
+      {
+        "name": "Bushwhack",
+        "quantity": 1
+      },
+      {
+        "name": "Snakeskin Veil",
+        "quantity": 1
+      },
+      {
+        "name": "Garruk's Uprising",
+        "quantity": 1
+      },
+      {
+        "name": "Thornwood Falls",
+        "quantity": 2
+      },
+      {
+        "name": "Forest",
+        "quantity": 10
+      },
+      {
+        "name": "Island",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": "above-the-clouds",
+    "title": "Above the clouds",
+    "colors": [
+      "W",
+      "U"
+    ],
+    "theme": "Flyers",
+    "summary": "Attack over ground creatures with a flock strengthened by Empyrean Eagle.",
+    "plan": "Deploy cheap flyers, then an Eagle. Giada accelerates Angels and rewards playing them in sequence. Leave mana open for Faebloom Trick or High Fae Trickster.",
+    "watch": "Your ground defense is light. Trade life for tempo only while your flyers can win the race.",
+    "cards": [
+      {
+        "name": "Healer's Hawk",
+        "quantity": 2
+      },
+      {
+        "name": "Spectral Sailor",
+        "quantity": 2
+      },
+      {
+        "name": "Youthful Valkyrie",
+        "quantity": 2
+      },
+      {
+        "name": "Giada, Font of Hope",
+        "quantity": 1
+      },
+      {
+        "name": "Dazzling Angel",
+        "quantity": 2
+      },
+      {
+        "name": "Empyrean Eagle",
+        "quantity": 2
+      },
+      {
+        "name": "Strix Lookout",
+        "quantity": 2
+      },
+      {
+        "name": "High Fae Trickster",
+        "quantity": 1
+      },
+      {
+        "name": "Serra Angel",
+        "quantity": 1
+      },
+      {
+        "name": "Angel of Finality",
+        "quantity": 1
+      },
+      {
+        "name": "Faebloom Trick",
+        "quantity": 2
+      },
+      {
+        "name": "Banishing Light",
+        "quantity": 2
+      },
+      {
+        "name": "Joust Through",
+        "quantity": 1
+      },
+      {
+        "name": "Refute",
+        "quantity": 1
+      },
+      {
+        "name": "Think Twice",
+        "quantity": 1
+      },
+      {
+        "name": "Tranquil Cove",
+        "quantity": 2
+      },
+      {
+        "name": "Plains",
+        "quantity": 8
+      },
+      {
+        "name": "Island",
+        "quantity": 7
+      }
+    ]
+  }
+]
