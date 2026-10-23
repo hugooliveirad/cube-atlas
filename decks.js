@@ -2,7 +2,7 @@
 (async () => {
   const $ = id => document.getElementById(id);
   const KEY = 'cube-atlas.decks.v1', OWNED_KEY = 'cube-atlas.owned.v1';
-  const normalize = name => name.normalize('NFKC').trim().replace(/[’‘]/g,"'").replace(/\s+/g,' ').toLowerCase();
+  const normalize = name => name.normalize('NFKC').split('//')[0].trim().replace(/[’‘]/g,"'").replace(/\s+/g,' ').toLowerCase();
   let decks, metadata, reservations, ownership, saved = {version:1,roster:'booster',picked:[],completed:[]};
   let filter = 'all', timer, previewRequest = 0;
   const nodes = new Map();
@@ -31,7 +31,9 @@
       const raw = JSON.parse(localStorage.getItem(OWNED_KEY) || 'null');
       if(!raw) return;
       if(raw.version !== 1 || !raw.counts || typeof raw.counts !== 'object' || Array.isArray(raw.counts) || Object.values(raw.counts).some(n => !Number.isSafeInteger(n) || n < 0)) throw new Error('Invalid collection');
-      ownership = {...raw,counts:new Map(Object.entries(raw.counts).map(([name,n]) => [normalize(name),n]))};
+      const counts = new Map();
+      for(const [name,n] of Object.entries(raw.counts)) { const key = normalize(name); counts.set(key,(counts.get(key) || 0)+n); }
+      ownership = {...raw,counts};
     } catch { error('Your collection could not be read. Import it again from the battlebox page.'); }
   }
   function save() {
