@@ -1,12 +1,20 @@
 # Cube Atlas
 
-A minimalist tracker for the 180-card Foundations Starter Collection cube in [the supplied decklist](docs/180FoundationsStarterCollection.txt), grouped by color and rarity to match [the reference image](docs/cube-reference.png).
+A browser-based workbench for buying and organizing Magic cubes. Includes the Foundations **Original list**, Foundations **Play Boosters**, and [The Hobbit: Set Twobert](https://cubecobra.com/cube/list/270edd29-666f-4ca1-9661-f5ea7d204d92) (180 copies, 130 card names). Choose a cube, import your collection, then track each copy as you acquire it and put it in the cube.
 
 Live site: https://hugobessa.com.br/cube-atlas/
 
-Check off individual copies as you add them to the cube. Each rarity group, color column, and the full cube has its own completion celebration. Small card-art thumbnails ship with the site. Search and filter by color or inclusion status; completion always measures the full collection.
+The compact layout uses plain backgrounds, blue links, bordered color columns and sticky column headings. Search, color filters and checklist status only change visibility; totals always measure the selected cube. Hover card art or focus a checkbox to preview a card when an image is available. Reduced-motion preferences disable decorative animations.
 
-Hover over a thumbnail to see the full card floating beside your pointer. Keyboard focus on a card's checkbox also shows its preview; Escape dismisses it. Full card images load from Scryfall on demand. Color headings and their progress bars stay visible as you scroll through each column.
+## Import from Cube Cobra
+
+1. Select **Import from Cube Cobra**. Paste the cube’s About/List URL or its ID and select **Get CSV link**.
+2. Download the CSV from the supplied link, then upload or drop it into the file field. You can also paste Cube Cobra CSV directly; the URL is optional.
+3. Name the cube and select **Preview import**. Check the mainboard count and sample cards, then select **Add cube**.
+
+Cube Cobra’s CSV endpoint does not currently allow cross-origin browser fetches. The download-and-upload flow works on GitHub Pages without a server or third-party proxy. The CSV stays in your browser. Imports retain colors, rarities and duplicate quantities, ignore maybeboard/basic-land-supply rows, and start with independent checkmarks. Basic lands explicitly listed in the mainboard are included. Every import creates a separate cube, even if the source URL is the same. Use **Remove imported cube** to remove one; built-in cubes cannot be removed. Imported cards without custom image URLs use a placeholder.
+
+`data/hobbit.json` is the bundled snapshot retrieved on October 22, 2026 from the linked Cube Cobra mainboard. All 130 card names and printing IDs were verified through Scryfall; image URLs and artist credits accompany the entries. Import a fresh CSV as a separate cube to track a later revision. The two Foundations rosters remain canonical in `index.html`.
 
 ## Run
 
@@ -14,21 +22,25 @@ Hover over a thumbnail to see the full card floating beside your pointer. Keyboa
 python3 -m http.server
 ```
 
-Open http://localhost:8000. The battlebox app lives in `index.html`; `decks.html` is the companion deck planner. Both run without a bundler or runtime dependencies. GitHub Pages serves `main` from the repository root.
+Open http://localhost:8000. The battlebox app lives in `index.html`; `decks.html` is the companion deck planner. Both run without a bundler or third-party runtime dependencies. Cube CSV parsing lives in `cube-library.js`, and the workbench styles live in `cube-atlas.css`. GitHub Pages serves `main` from the repository root.
 
-## Progress
+## Buying, organizing and collection ownership
 
-Progress stays in this browser under `cube-atlas.progress.v1`. It does not sync between devices. Use **Back up progress** and **Restore backup** to transfer it. Each card has a stable ID; the reference's rarity groups are preserved regardless of a card's current printing. Reduced-motion preferences disable decorative animations.
+Use **Import collection CSV** with a Mythic Tools export. Quantities add across sets, languages, finishes and containers. English names are matched case-insensitively with normalized punctuation and adventure names (`Card // Adventure` matches `Card`). The full collection remains available to the leftover-deck planner. An import replaces the ownership snapshot and leaves checklist progress unchanged. No collection data is uploaded.
 
-The runtime catalog lives in `index.html`. Its column totals are 25 white, 25 blue, 25 black, 25 red, 25 green, 11 colorless, 21 multicolored, and 23 lands. The catalog check verifies every card against the supplied text file, in order.
+- **Buy cards** shows imported, acquired and already-organized copies as covered. Check a missing copy when you acquire it. The remaining buy list updates immediately. Imported and organized copies cannot be unchecked here; change the collection snapshot or organizing checklist instead.
+- **Organize cards** checks each physical copy into the selected cube. Buying never automatically checks a card into the cube. The stacked-card indicator shows how many copies your CSV contains.
+- **Buy list** copies or downloads `quantity English card name`, one line per name, suitable for LigaMagic. It covers the full cube even when search filters or suggested cards are hidden. It also works before importing a collection.
 
-## Ownership and buy lists
+Buying tracks a coverage checkpoint: when you check a purchase, the already-covered copies of that name are retained with it. A newer CSV overlaps that checkpoint rather than adding those copies again. You can undo acquisition checkmarks where the collection and organized copies do not already cover them. If your collection later shrinks, historical buying/organizing marks remain until you undo them. Coverage is calculated independently for each cube; this is not an allocation system reserving inventory across every cube at once.
 
-Use **Import collection CSV** with a Mythic Tools export. English names match across sets, languages, and finishes; repeated rows add their quantities. The full name-and-quantity collection is stored locally so the leftover-deck page can also use cards outside the battlebox. The stacked-card icon beside a name shows how many copies you own. Importing replaces the previous ownership snapshot and leaves every included checkbox unchanged.
+## Saved progress and backups
 
-Ownership stays in this browser under `cube-atlas.owned.v1`; the CSV and your collection are never uploaded. Keep the CSV to import on another device. **Back up progress** continues to back up included checkboxes only. Reimport a newer CSV to refresh ownership.
+Progress stays in this browser and does not sync between devices. **Back up progress** saves a version 2 JSON file containing imported cubes plus buying and organizing checkmarks. **Restore backup** restores those together. Version 1 progress backups remain supported and change only organizing progress. The collection CSV is still separate: keep it and import it on another device.
 
-**Buy list** opens an alphabetized, quantity-based list for the full selected roster, regardless of filters or hidden suggestions. For each name, the amount to buy is `required − max(owned, included)`, floored at zero. Included copies may already be part of the imported collection, so those counts are not added together. Duplicate lands can require a second copy. Copy or download the resulting decklist; completion still depends only on included checkboxes.
+Existing organizing progress keeps `cube-atlas.progress.v1` and its stable copy IDs. `cube-atlas.owned.v1` keeps the collection snapshot, `cube-atlas.view.v1` keeps view preferences, and `cube-atlas.library.v1` stores imported cubes and acquisition coverage. Updates synchronize between open tabs. Storage failures are reported; download a backup before closing a session that could not be saved.
+
+Shared Foundations cards retain the existing shared checkmarks between Original list and Play Boosters. Original-only cards and replacements remain independent. Hobbit and imported cubes have their own copy IDs, so checking them does not change either Foundations variant. The original Foundations column totals remain 25 white, 25 blue, 25 black, 25 red, 25 green, 11 colorless, 21 multicolored, and 23 lands.
 
 ## Play Booster alternative
 
@@ -36,7 +48,7 @@ The **Original list** tab preserves the supplied list. **Play Boosters** builds 
 
 The alternative preserves all original column counts: 25 in each single color, 11 colorless, 21 multicolored, and 23 lands. Each Temple is replaced with a second copy of the booster dual land in the same colors, with independent checkboxes labeled 1/2 and 2/2. Other cards remain singleton. Cards are grouped by their actual booster-printing rarity. In particular, Bushwhack is common in boosters even though the original reference groups it as uncommon.
 
-**Show suggested cards** changes visibility only: hidden suggestions still count toward the 180-card target. Checkmarks for shared cards carry between tabs. Original-only cards and replacements remain independent, and progress, group milestones, and completion celebrations use the selected roster. Existing progress and version 1 backups remain compatible; backups now include checked cards from both rosters. Tab and visibility preferences use `cube-atlas.view.v1` separately from collection data.
+**Show suggested cards** changes visibility only: hidden suggestions still count toward the 180-card target. Checkmarks for shared cards carry between tabs. Original-only cards and replacements remain independent, and progress, group milestones, and completion celebrations use the selected roster. Existing progress and version 1 backups remain compatible; new backups include all cubes and both checklists. Tab and visibility preferences use `cube-atlas.view.v1` separately from collection data.
 
 Eligibility was checked against Scryfall's Foundations booster pool and [Wizards' product guide](https://magic.wizards.com/en/news/feature/collecting-foundations). [Verification metadata](docs/play-booster-verification.json) records the chosen printings and date. `PLAY_BOOSTER` in the HTML contains the retained cards and suggested changes; it does not alter the original catalog. No Special Guests or Collector-only treatments are required.
 
@@ -50,7 +62,7 @@ node scripts/fetch-art.mjs
 
 For browser checks, serve the app on port 8766, install Playwright locally (`npm install --no-save --package-lock=false playwright`), and run `node scripts/browser-check.cjs`. It uses installed Chrome by default. Override `CUBE_URL` or `BROWSER_CHANNEL` as needed. Tests use an isolated browser context and never change your saved collection.
 
-Run `node scripts/ownership-check.cjs` for CSV import, ownership, and buy-list checks. Optional `COLLECTION_CSV` checks a local export without adding it to the repository.
+Run `node scripts/ownership-check.cjs` for CSV import, ownership, and buy-list checks. Run `node scripts/library-check.cjs` for Cube Cobra imports, duplicate quantities, adventure-name matching, buying/organizing overlap, cube isolation, complete backups, keyboard use and responsive borders. Optional `COLLECTION_CSV` checks a local export without adding it to the repository.
 
 The art script verifies exact names through Scryfall's collection API, downloads 112-pixel thumbnails, and records source URLs and artist credits in [docs/art-credits.json](docs/art-credits.json). It reads the catalog from the HTML; it does not maintain a second card list.
 
