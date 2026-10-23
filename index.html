@@ -327,17 +327,17 @@
       $('copy-buy').disabled = $('download-buy').disabled = entries.length === 0;
       $('buy-feedback').textContent = entries.length ? '' : 'Every copy is covered by your collection, acquired cards, or organized cards.';
     }
-    const thumbnailSources = fetch('docs/art-credits.json').then(response => {
+    const cardImageSources = fetch('docs/art-credits.json').then(response => {
       if(!response.ok) throw new Error('Card images unavailable');
       return response.json();
     }).then(credits => new Map(credits.map(card => [normalizeName(card.name),card.image]))).catch(() => new Map());
-    async function loadThumbnail(img,card) {
-      const sources = await thumbnailSources;
+    async function cardImageSource(card,version) {
+      const sources = await cardImageSources;
       const source = [card.image,sources.get(normalizeName(card.name))].find(url => /^https:\/\/cards\.scryfall\.io\/(normal|art_crop|small|large)\//.test(url || ''));
-      img.src = source ? source.replace(/\/(normal|art_crop|large)\//,'/small/') : `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(card.name)}&format=image&version=small`;
+      return source ? source.replace(/\/(normal|art_crop|small|large)\//,`/${version}/`) : `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(card.name)}&format=image&version=${version}`;
     }
     const cardNodes = new Map(), groupNodes = new Map(), columnNodes = new Map();
-    let previewSources, previewFocus = null, previewRequest = 0, previewPoint = {x:0,y:0};
+    let previewFocus = null, previewRequest = 0, previewPoint = {x:0,y:0};
     function hidePreview() {
       previewRequest++; previewFocus = null; $('card-preview').hidden = true;
     }
@@ -354,21 +354,18 @@
       hidePreview();
       const request = previewRequest;
       previewPoint = {x,y}; previewFocus = focusTarget;
-      try {
-        previewSources ||= fetch('docs/art-credits.json').then(response => {
-          if(!response.ok) throw new Error('Card images unavailable');
-          return response.json();
-        }).then(credits => new Map(credits.map(credit => [credit.name,credit.image.replace('/art_crop/','/normal/')])));
-        const sources = await previewSources;
-        if(request !== previewRequest || (!card.image && !sources.has(card.name))) return;
-        const image = new Image(); image.alt = `${card.name} — full card`;
-        image.onload = () => {
-          if(request !== previewRequest) return;
-          $('card-preview').replaceChildren(image); positionPreview(); $('card-preview').hidden = false;
-        };
-        image.onerror = () => { if(request === previewRequest) hidePreview(); };
-        image.src = card.image || sources.get(card.name);
-      } catch { previewSources = null; }
+      const placeholder = new Image(); placeholder.alt = `${card.name} — loading full card`;
+      placeholder.src = 'assets/mtg-card-back.jpg';
+      $('card-preview').replaceChildren(placeholder); positionPreview(); $('card-preview').hidden = false;
+      const source = await cardImageSource(card,'normal');
+      if(request !== previewRequest) return;
+      const image = new Image(); image.alt = `${card.name} — full card`;
+      image.onload = () => {
+        if(request !== previewRequest) return;
+        $('card-preview').replaceChildren(image); positionPreview();
+      };
+      image.onerror = () => { if(request === previewRequest) placeholder.alt = `${card.name} — image unavailable`; };
+      image.src = source;
     }
     function bindPreviewPointer(target,card) {
       target.addEventListener('pointerenter',event => { if(event.pointerType !== 'touch' && !previewFocus) showPreview(card,event.clientX,event.clientY); });
@@ -438,7 +435,7 @@
             const img = document.createElement('img'); img.alt = ''; img.loading = 'lazy'; img.width = 146; img.height = 204;
             img.addEventListener('load',() => img.dataset.loaded = 'true');
             img.addEventListener('error',() => delete img.dataset.loaded);
-            art.append(img); loadThumbnail(img,card);
+            art.append(img); cardImageSource(card,'small').then(source => img.src = source);
             const name = document.createElement('span'); name.className = 'card-name'; name.textContent = card.name;
             const owned = document.createElement('span'); owned.className = 'owned-icon'; owned.hidden = true; owned.setAttribute('role','img');
             owned.innerHTML = '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="5" y="2" width="8" height="11" rx="1.5"/><path d="M3 5H2v9h8v-1"/></svg><span></span>';
