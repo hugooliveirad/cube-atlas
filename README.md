@@ -12,7 +12,7 @@ The compact layout uses plain backgrounds, blue links, bordered color columns an
 2. Download the CSV from the supplied link, then upload or drop it into the file field. You can also paste Cube Cobra CSV directly; the URL is optional.
 3. Name the cube and select **Preview import**. Check the mainboard count and sample cards, then select **Add cube**.
 
-Cube Cobra’s CSV endpoint does not currently allow cross-origin browser fetches. The download-and-upload flow works on GitHub Pages without a server or third-party proxy. The CSV stays in your browser. Imports retain colors, rarities and duplicate quantities, ignore maybeboard/basic-land-supply rows, and start with independent checkmarks. Basic lands explicitly listed in the mainboard are included. Every import creates a separate cube, even if the source URL is the same. Use **Remove imported cube** to remove one; built-in cubes cannot be removed. Imported cards without custom image URLs use a placeholder.
+Cube Cobra’s CSV endpoint does not currently allow cross-origin browser fetches. The download-and-upload flow works on GitHub Pages without a server or third-party proxy. The CSV stays in your browser. Imports retain colors, rarities and duplicate quantities, ignore maybeboard/basic-land-supply rows, and start with independent checkmarks. Basic lands explicitly listed in the mainboard are included. Every import creates a separate cube, even if the source URL is the same. Use **Remove imported cube** to remove one; built-in cubes cannot be removed. Thumbnails load portrait card fronts from Scryfall, using a name lookup when no known printing image is available. A bundled MTG card back stays visible while loading and if an image fails.
 
 `data/hobbit.json` is the bundled snapshot retrieved on October 22, 2026 from the linked Cube Cobra mainboard. All 130 card names and printing IDs were verified through Scryfall; image URLs and artist credits accompany the entries. Import a fresh CSV as a separate cube to track a later revision. The two Foundations rosters remain canonical in `index.html`.
 
@@ -66,7 +66,7 @@ Run `node scripts/ownership-check.cjs` for CSV import, ownership, and buy-list c
 
 The art script verifies exact names through Scryfall's collection API, downloads 112-pixel thumbnails, and records source URLs and artist credits in [docs/art-credits.json](docs/art-credits.json). It reads the catalog from the HTML; it does not maintain a second card list.
 
-Card imagery is provided by [Scryfall](https://scryfall.com). Magic: The Gathering and its artwork belong to Wizards of the Coast and their respective artists. Cube Atlas is an independent fan project.
+Card imagery is provided by [Scryfall](https://scryfall.com). The local loading placeholder is the [standard Magic card back](https://backs.scryfall.io/normal/0/a/0aeebaf5-8c7d-4636-9e82-8c27447861f7.jpg). Magic: The Gathering and its artwork belong to Wizards of the Coast and their respective artists. Cube Atlas is an independent fan project.
 
 ## Leftover decks
 

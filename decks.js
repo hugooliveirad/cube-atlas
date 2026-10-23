@@ -111,10 +111,13 @@
       for(const card of subset) {
         const row=document.createElement('div');row.className='card-row';row.dataset.name=card.name;
         const quantity=document.createElement('span');quantity.className='quantity';quantity.textContent=card.quantity;
-        const img=document.createElement('img');img.src=metadata[card.name].thumbnail;img.alt='';img.loading='lazy';img.addEventListener('error',()=>img.style.visibility='hidden');
+        const thumbnail=document.createElement('span');thumbnail.className='card-thumbnail';
+        const img=document.createElement('img');img.alt='';img.loading='lazy';img.width=146;img.height=204;
+        img.addEventListener('load',()=>img.dataset.loaded='true');img.addEventListener('error',()=>delete img.dataset.loaded);
+        img.src=metadata[card.name].image.replace('/normal/','/small/');thumbnail.append(img);
         const link=document.createElement('a');link.href=metadata[card.name].source;link.target='_blank';link.rel='noreferrer';link.textContent=card.name;
         const stock=document.createElement('span');stock.className='stock';
-        row.append(quantity,img,link,stock);node.querySelector('.card-list').append(row);
+        row.append(quantity,thumbnail,link,stock);node.querySelector('.card-list').append(row);
         for(const target of [img,link]) {
           target.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch')preview(card.name,e.clientX,e.clientY);});
           target.addEventListener('pointermove',e=>{if(e.pointerType!=='touch')position(e.clientX,e.clientY);});

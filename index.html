@@ -327,6 +327,15 @@
       $('copy-buy').disabled = $('download-buy').disabled = entries.length === 0;
       $('buy-feedback').textContent = entries.length ? '' : 'Every copy is covered by your collection, acquired cards, or organized cards.';
     }
+    const thumbnailSources = fetch('docs/art-credits.json').then(response => {
+      if(!response.ok) throw new Error('Card images unavailable');
+      return response.json();
+    }).then(credits => new Map(credits.map(card => [normalizeName(card.name),card.image]))).catch(() => new Map());
+    async function loadThumbnail(img,card) {
+      const sources = await thumbnailSources;
+      const source = [card.image,sources.get(normalizeName(card.name))].find(url => /^https:\/\/cards\.scryfall\.io\/(normal|art_crop|small|large)\//.test(url || ''));
+      img.src = source ? source.replace(/\/(normal|art_crop|large)\//,'/small/') : `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(card.name)}&format=image&version=small`;
+    }
     const cardNodes = new Map(), groupNodes = new Map(), columnNodes = new Map();
     let previewSources, previewFocus = null, previewRequest = 0, previewPoint = {x:0,y:0};
     function hidePreview() {
@@ -426,8 +435,10 @@
             const label = document.createElement('label'); label.className = 'card'; label.dataset.suggested = String(!!card.suggested);
             const art = document.createElement('span'); art.className = 'art'; art.setAttribute('aria-hidden','true');
             bindPreviewPointer(art,card);
-            const img = document.createElement('img'); img.src = card.art || card.image || (card.id.startsWith('import-') ? 'assets/cube.svg' : `assets/cards/${slug(card.name)}.jpg`); img.alt = ''; img.loading = 'lazy'; img.width = 70; img.height = 70;
-            img.addEventListener('error',() => img.hidden = true); art.append(img);
+            const img = document.createElement('img'); img.alt = ''; img.loading = 'lazy'; img.width = 146; img.height = 204;
+            img.addEventListener('load',() => img.dataset.loaded = 'true');
+            img.addEventListener('error',() => delete img.dataset.loaded);
+            art.append(img); loadThumbnail(img,card);
             const name = document.createElement('span'); name.className = 'card-name'; name.textContent = card.name;
             const owned = document.createElement('span'); owned.className = 'owned-icon'; owned.hidden = true; owned.setAttribute('role','img');
             owned.innerHTML = '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="5" y="2" width="8" height="11" rx="1.5"/><path d="M3 5H2v9h8v-1"/></svg><span></span>';
